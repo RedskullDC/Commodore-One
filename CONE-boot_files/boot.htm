@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://mitglied.lycos.de/mc71/cone/boot.php? -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY>
+<P><FONT face="Times New Roman">Hello all,</FONT></P>
+<P><FONT face="Times New Roman">i'll try to give a summary of how things belong 
+together in the c-one, and what the important terms are.</FONT></P>
+<P><FONT face="Times New Roman">--- Payton Byrd &lt;</FONT><A 
+href="mailto:plbyrd@b"><FONT face="Times New Roman">plbyrd@b</FONT></A><FONT 
+face="Times New Roman">...&gt; wrote:</FONT></P>
+<P><FONT face="Times New Roman">&gt; So what can people do to help, and who will 
+coordinate it?</FONT></P>
+<P><FONT face="Times New Roman">The c64 compatibility core is developed by Jeri 
+Ellsworth, and she keeps it closed, at least at the moment. She has been (sort 
+of) flamed for that in the past, and it hasn't made her change her mind... so we 
+don't have to go through all this again. On the other hand, had she released the 
+C64 core sources under, say, the GPL... we would now have a C64 DTV without her 
+getting any revenue. Half a year ago, i thought commercially producing and 
+selling a C64 DTV with custom silicon ('remade c64 hardware') in it for $30 
+would not be possible, but i have been proven wrong... so there is at least a 
+bit of reason within that decision.</FONT></P>
+<P><FONT face="Times New Roman">What can we do?</FONT></P>
+<P><FONT face="Times New Roman">- give bug reports. Despite being busy with the 
+DTV (the PAL unit for European and Australian markets is not yet ready, as i 
+have heard) Jeri is still working on the C64 core for the C-One, and of course 
+on the not-yet-released C-One 'native mode' core. Obviously, she needs our 
+feedback to get the c64 core as accurate as possible- and inter-operable with 
+the rest of the c-one hardware that is vastly different from the DTV. 
+</FONT></P>
+<P><FONT face="Times New Roman">- make new cores for the big FPGA. Of course, 
+this is major witchcraft for most of us, but -in principle- everybody can now 
+reproduce their beloved computer (even the Speccy if need be *g*)- and teher are 
+already fpga projects for the VIC, the Bally/Astrocade, the ZX81 available on 
+the 'net... i don't know if these can be compiled for the 1k100 (the processor 
+cores tend to be quite ressource hungry), but you can always make your own 
+processor card if that is a problem ;o))</FONT></P>
+<P><FONT face="Times New Roman">- There is still no support for the HD/CF as C64 
+peripheral. I *think* we have every ressource we need to invent something (the 
+driuve CPU code is free, we can run (EHRM...JENS? TOBIAS? CAN WE?!? or will we 
+run into Jeris C64 bus access?) custom code on the drive cpu, in CPC mode or in 
+6502 mode... AFAIK we 'only' need a solution to 'snoop' the serial bus from the 
+drive cpu. </FONT></P>
+<P><FONT face="Times New Roman">&gt; Is there a roadmap anywhere of the features 
+and milestones <BR>&gt; that the features will be available?</FONT></P>
+<P><FONT face="Times New Roman">We have given up having roadmaps, for good 
+reasons. There has always been some un-foreseen delay whenever some sort of even 
+vague release date was published. Better not make promises than break 
+them...</FONT></P>
+<P><FONT face="Times New Roman">&gt; What I'm sensing is that the current C-One 
+core is essentially the <BR>&gt; C64DTV core which is completely understandable. 
+</FONT></P>
+<P><FONT face="Times New Roman">I'd like to put it the orher way around: The 
+c-one c64 core, plus a SID core, was used for the DTV. Or maybe even: The 
+CommodoreOne (as in the 'cube' prototype, and the Rev0 boards that were shown in 
+2002) super-c64 core evolved into both the c-one and the DTV (albeit the c-one 
+construction preceedes the DTV)</FONT></P>
+<P><FONT face="Times New Roman">&gt;&nbsp;&nbsp;&nbsp;&nbsp; * What format is 
+the core defined? </FONT></P>
+<P><FONT face="Times New Roman">C-one cores can be written in a HDL (hardware 
+definition language) or been entered as schematics; the latter however is not 
+very effective for implementing, say, a processor.</FONT></P>
+<P><FONT face="Times New Roman">This source is then processed by a 'compiler' 
+(correct term is 'fitter') that makes...</FONT></P>
+<P><FONT face="Times New Roman">&gt;&nbsp;&nbsp;&nbsp;&nbsp; * Is there a 
+microcode that the FPGA uses to<BR>&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+define the logic gates of a circuit?</FONT></P>
+<P><FONT face="Times New Roman">...a 'bit stream' that actually is fed into the 
+FPGA. When we talk about e.g. 'puttin g a core on the CF', we usually mean that 
+bit stream file. </FONT></P>
+<P><FONT face="Times New Roman">&gt;&nbsp;&nbsp;&nbsp;&nbsp; * What tools are 
+used to program the FPGA?</FONT></P>
+<P><FONT face="Times New Roman">Altera (the producer of the FPGAs used in the 
+c-one) offers a free version of their Quartus program. This contains all the 
+necessary functionality to make a core, from code/schematic entry, to 
+'synthesizing' (another word for what is 'compiling' in software development) to 
+simulation, to actually fitting and producing said bit stream file.</FONT></P>
+<P><FONT face="Times New Roman">FYI: the format of the bit stream is a trade 
+secret of Altera.</FONT></P>
+<P><FONT face="Times New Roman">&gt; What role does the 65816 play?</FONT></P>
+<P><FONT face="Times New Roman">Currently, none at all. Unplug the CPU card, and 
+the boot menu and the Amstrad core will run fine. The 65816 will only be used in 
+'native mode', featuring SDRAM access, SuperVIC modes, MonsterSID... but that is 
+still being developed. </FONT></P>
+<P><FONT face="Times New Roman">However, no-one keeps you from writing a core 
+that makes use of the 65816. In fact, it should not be too complicated to throw 
+something together from available open-source components... (ok, /me being big 
+mouth here... i'm not even 23..27 percent done with it *lol*)</FONT></P>
+<P><FONT face="Times New Roman">&gt; Is it only used to bootstrap the system 
+<BR>&gt; and populate the FPGA?</FONT></P>
+<P><FONT face="Times New Roman">I'll give a quick rundown of the 
+startup:</FONT></P>
+<P><FONT face="Times New Roman">- power on.<BR>- the small MAX 3000 chip has a 
+state machine that shovels configuration data from the flash rom into the 1k30 
+FPGA.<BR>- the 1k30 starts working, getting even more ROM data into the PS2 
+SIMM. <BR>- now an 8-bit RISC processor starts to execute code from the PS2 
+SIMM. This code is, basically, a 6502 and Z80 emulator.</FONT></P>
+<P><FONT face="Times New Roman">Zoom out.</FONT></P>
+<P><FONT face="Times New Roman">- The ('soft') 6502 in the small FPGA executes 
+'bigboot', scanning the IDE and CF connections for a BOOT directory.<BR>- if 
+found, it displays the cores in it, and lets the user select one.<BR>- the 
+selected core is copied from the CF or IDE device into the big FPGA (1k100)- up 
+until now, the big fpga, the procesor slot, cartridge slot, PCI slot and the 
+SDRAM are completely brain-dead. Not there. Three-stated. Quiet. Nada.<BR>- now, 
+and only now, is the big FPGA started. In C64-core, it contains the processor; 
+in CPC mode, the RISC cpu is switched to Z80 emulation mode and executes the 
+Amstrad Kernal. (in fact, in Amstrad mode, only the sound chip is in the big 
+FPGA, but that's a completely different story)</FONT></P>
+<P><FONT face="Times New Roman">&gt; After that is there any way it can be given 
+an <BR>&gt; address on the bus and given the opportunity to<BR>&gt; participate 
+in the system?</FONT></P>
+<P><FONT face="Times New Roman">It is not necessary to shut down the 'boot cpu', 
+also known as 'drive CPU'. In fact, it is supposed to simulate a 1681/CMD-HD 
+once for the c64 and C-one native mode- and, as i said- in CPC core, it actually 
+becomes the main CPU!</FONT></P>
+<P><FONT face="Times New Roman">I hope this is more helpful than distracting... 
+</FONT></P>
+<P><FONT face="Times New Roman">-mc</FONT></P>
+<P><FONT face="Times New Roman"></FONT>&nbsp;</P><PRE></PRE><XMP></XMP></NOSCRIPT><!-- SZM VERSION="1.3" -->
+<SCRIPT language=JavaScript>
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  return (new Object());
+}
+
+window.open = SymWinOpen;
+
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript> 
+<!-- 
+var IVW="http://lycos.ivwbox.de/cgi-bin/ivw/CP/2B04APBA0000;"; 
+document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"\" width=\"1\" height=\"1\" />"); 
+// -->
+</SCRIPT>
+<NOSCRIPT><IMG height=1 src="boot_files/blank.gif" width=1> </NOSCRIPT><!-- /SZM --><!-- SZMFRABO VERSION="1.1" -->
+<SCRIPT language=JavaScript type=text/javascript> 
+var szmvars="lycos//CP//2B04APBA0000"; 
+</SCRIPT>
+
+<SCRIPT language=JavaScript src="boot_files/survey.js" 
+type=text/javascript> </SCRIPT>
+<!-- /SZMFRABO -->
+<SCRIPT language=javascript src="boot_files/test_frame_size.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+if (!AD_clientWindowSize()) {
+        document.write("<NOSC"+"RIPT>");
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+        function setCookie(name, value, expires, path, domain, secure) {
+           var curCookie = name + "=" + escape(value) +
+             ((expires) ? "; expires=" + expires.toGMTString() : "") +
+             ((path) ? "; path=" + path : "") +
+             ((domain) ? "; domain=" + domain : "") +
+             ((secure) ? "; secure" : "");
+           document.cookie = curCookie;
+        }
+
+        var ad_url = "http://ads.tripod.lycos.de/ad/google/frame.php?_url="+escape(self.location)+"&gg_bg=FFFFFF&gg_template=1&mkw=&cat=science.technology";
+        var ref=window.document.referrer;
+
+		if(parent.LycosAdFrame) {
+                if(parent.memberPage && parent.memberPage.document.title ) {
+                        parent.document.title=parent.memberPage.document.title;
+                }
+
+                if(parent.LycosAdFrame && parent.LycosAdFrame.location && (ref != "" && (ref+"?" != window.location) && (ref.substr(ref.length-1,1) != "/")) ) {
+                        parent.LycosAdFrame.location.replace(ad_url);
+                }
+                setCookie("adFrameForcePHP",0,0," ");
+                parent.document.body.cols = "*,140";
+        }
+        else if(top.LycosAdFrame && top.LycosAdFrame.location) {
+                if ((ref != "" && (ref+"?" != top.window.location) && (ref.substr(ref.length-1,1) != "?"))) {
+                        top.LycosAdFrame.location.replace(ad_url);
+                }
+                setCookie("adFrameForcePHP",0,0," ");
+                top.document.body.cols = "*,140";
+        }
+        else {
+                if (!window.opener) {
+                        setCookie("adFrameForcePHP",1,0," ");
+                }
+                else {
+                        setCookie("adFrameForcePHP",0,0," ");
+                }
+        }
+		
+	if (window.top.location.href.indexOf("http://mitglied.lycos.de")!=-1) {
+		ad_frame = 1 ;
+		window.top.document.body.cols="*,140" ;
+	}
+
+function resizeGoogleAdFrame() {
+	window.top.document.body.cols = "*,140";
+}
+
+
+	if (ad_frame == 1 && AD_clientWindowSize()) {
+		setInterval("resizeGoogleAdFrame()", 30);
+	}
+
+</SCRIPT>
+
+<SCRIPT language=javascript src="boot_files/popunder_lycos_update.htm"></SCRIPT>
+
+<SCRIPT src="boot_files/ad.php" type=text/javascript></SCRIPT>
+<!-- START RedSheriff Measurement V5.01 --><!-- COPYRIGHT 2002 RedSheriff Limited -->
+<SCRIPT language=JavaScript type=text/javascript><!--
+  var _rsCI='lycos-de';
+  var _rsCG='science.technology';
+  var _rsDT=1;
+  var _rsSI=escape(window.location);
+  var _rsLP=location.protocol.indexOf('https')>-1?'https:':'http:';
+  var _rsRP=escape(document.referrer);
+  var _rsND=_rsLP+'//secure-uk.imrworldwide.com/';
+
+  if (parseInt(navigator.appVersion)>=4) {
+    var _rsRD=(new Date()).getTime();
+    var _rsSE=0;
+    var _rsSV='';
+    var _rsSM=0;
+    _rsCL='<scr'+'ipt language="JavaScript" type="text/javascript" src="'+_rsND+'v5.js"><\/scr'+'ipt>';
+  } else {
+    _rsCL='<img src="'+_rsND+'cgi-bin/m?ci='+_rsCI+'&cg='+_rsCG+'&si='+_rsSI+'&rp='+_rsRP+'">';
+  }
+  document.write(_rsCL);
+//--></SCRIPT>
+<NOSCRIPT><IMG alt="" src="boot_files/m.gif"> </NOSCRIPT><!-- END RedSheriff Measurement V5 -->
+<SCRIPT language=JavaScript>
+<!--
+var SymRealOnLoad;
+var SymRealOnUnload;
+
+function SymOnUnload()
+{
+  window.open = SymWinOpen;
+  if(SymRealOnUnload != null)
+     SymRealOnUnload();
+}
+
+function SymOnLoad()
+{
+  if(SymRealOnLoad != null)
+     SymRealOnLoad();
+  window.open = SymRealWinOpen;
+  SymRealOnUnload = window.onunload;
+  window.onunload = SymOnUnload;
+}
+
+SymRealOnLoad = window.onload;
+window.onload = SymOnLoad;
+
+//-->
+</SCRIPT>
+</BODY></HTML>

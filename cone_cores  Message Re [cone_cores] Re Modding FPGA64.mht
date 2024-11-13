@@ -1,0 +1,2773 @@
+From: "Saved by Windows Internet Explorer 7"
+Subject: cone_cores : Message: Re: [cone_cores] Re: Modding FPGA64
+Date: Sun, 3 Feb 2008 00:23:35 +1100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C865FB.038A2180"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6000.16545
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://tech.groups.yahoo.com/group/cone_cores/message/89
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>cone_cores : Message: Re: [cone_cores] Re: Modding =
+FPGA64</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"cone_cores: C-One cores" name=3Ddescription>
+<META content=3Dcone_cores name=3Dkeywords><LINK=20
+href=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/logo/favicon.ico"=20
+type=3Dimage/x-icon rel=3D"shortcut icon"><LINK title=3Dcone_cores=20
+href=3D"http://rss.groups.yahoo.com/group/cone_cores/rss" =
+type=3Dapplication/rss+xml=20
+rel=3Dalternate><LINK=20
+href=3D"http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/global_200704120=
+000.css"=20
+type=3Dtext/css rel=3Dstylesheet><LINK=20
+href=3D"http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/dynamic_20060213=
+0000.css"=20
+type=3Dtext/css rel=3Dstylesheet><LINK=20
+href=3D"http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/msgview_20060213=
+0000.css"=20
+type=3Dtext/css rel=3Dstylesheet><LINK=20
+href=3D"http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/msgidx_200506210=
+000.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+function setDocumentCharset(oForm)=0A=
+{=0A=
+var charset =3D (typeof document.charset =3D=3D "undefined" || =
+document.charset =3D=3D null) ? document.characterSet : document.charset;=0A=
+if(oForm.charset.value !=3D charset && typeof charset !=3D "undefined" )=0A=
+oForm.charset.value =3D charset;=0A=
+}=0A=
+// -->=0A=
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.6000.16587" name=3DGENERATOR></HEAD>
+<BODY onload=3Dpref();clear_gmp();>
+<STYLE type=3Dtext/css>@import url( =
+http://us.js1.yimg.com/us.yimg.com/lib/hdr/ygma.css );
+BODY {
+	MARGIN: 0px 4px
+}
+</STYLE>
+
+<DIV id=3Dygma align=3Dcenter>
+<FORM style=3D"MARGIN: 0px" action=3Dhttp://search.yahoo.com/search=20
+target=3D_top><INPUT type=3Dhidden value=3Dush-groups name=3Dfr>=20
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR bgColor=3D#efefef>
+    <TD class=3Dygmabk id=3Dygmalinks width=3D"100%" colSpan=3D3><FONT=20
+      face=3Darial,helvetica,sans-serif size=3D-2><A =
+href=3D"http://www.yahoo.com/"=20
+      target=3D_top><FONT color=3D#000000>Yahoo!</FONT></A> &nbsp; <A=20
+      href=3D"http://my.yahoo.com/" target=3D_top><FONT =
+color=3D#000000>My=20
+      Yahoo!</FONT></A> &nbsp; <A href=3D"http://mail.yahoo.com/"=20
+      target=3D_top><FONT color=3D#000000>Mail</FONT></A> </FONT></TD>
+    <TD class=3Dygmatcrn><SPACER height=3D"1" width=3D"1" =
+type=3D"block"></TD>
+    <TD class=3Dygmabk rowSpan=3D2><IMG height=3D16 alt=3D"Search the =
+web" hspace=3D4=20
+      =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/us/search/test/stw2.gif"=20
+    width=3D38></TD>
+    <TD class=3Dygmabk id=3Dygmasearch noWrap rowSpan=3D2><FONT=20
+      face=3Dverdana,geneva,sans-serif size=3D-2><INPUT=20
+      title=3D"Enter search terms here" maxLength=3D100 size=3D12 =
+name=3Dp> <INPUT class=3Dygbt title=3DSearch type=3Dsubmit =
+value=3DSearch> </FONT></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop rowSpan=3D2><A =
+href=3D"http://tech.groups.yahoo.com/"><IMG=20
+      id=3Dygmalogo height=3D33 alt=3D"Yahoo! Groups"=20
+      =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/us/nt/ma/ma_tech-grp_1.gif"=20
+      width=3D200></A></TD>
+    <TD id=3Dygmagreet width=3D"100%" rowSpan=3D2><FONT=20
+      face=3Dverdana,geneva,sans-serif size=3D-2>Welcome,=20
+      <STRONG>redskulldc</STRONG><BR>[<A=20
+      =
+href=3D"http://login.yahoo.com/config/login?logout=3D1&amp;.intl=3Dus&amp=
+;.src=3Dygrp&amp;.done=3Dhttp%3a//tech.groups.yahoo.com"=20
+      target=3D_top>Sign Out</A>, <A=20
+      =
+href=3D"http://login.yahoo.com/config/eval_profile?.intl=3Dus&amp;.done=3D=
+http%3a//tech.groups.yahoo.com"=20
+      target=3D_top>My Account</A>]<BR></FONT></TD>
+    <TD rowSpan=3D2></TD>
+    <TD class=3Dygmacrn vAlign=3Dtop noWrap width=3D13 bgColor=3D#efefef =
+
+      height=3D14><SPACER height=3D"14" width=3D"13" =
+type=3D"block"></TD></TR>
+  <TR>
+    <TD><SPACER height=3D"1" width=3D"1" type=3D"block"></TD>
+    <TD id=3Dygmaproplinks align=3Dright colSpan=3D2><FONT=20
+      face=3Dverdana,geneva,sans-serif size=3D-2><A =
+href=3D"http://tech.yahoo.com/"=20
+      target=3D_top>Tech</A> - <A href=3D"http://groups.yahoo.com/"=20
+      target=3D_top>Groups</A> - <A =
+href=3D"http://help.yahoo.com/help/groups/"=20
+      target=3D_top>Help</A> =
+</FONT></TD></TR></TBODY></TABLE></FORM></DIV>
+<DIV class=3Ddoc-layout-head>
+<DIV id=3Dygrp-title>
+<DIV class=3Dtop><SPAN class=3Dcorner-top><SPAN =
+class=3Dcorner-left></SPAN></SPAN>
+<TABLE class=3Dygrp-header>
+  <TBODY>
+  <TR>
+    <TD class=3Dbody>redskulldc =B7 layling@bigpond.net.au | Group =
+Member&nbsp; -=20
+      <A =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/join">Edit=20
+      Membership</A> </TD>
+    <TD class=3Dgroups><A =
+href=3D"http://tech.groups.yahoo.com/start">Start&nbsp;a=20
+      Group</A> | <A=20
+      href=3D"http://tech.groups.yahoo.com/mygroups">My&nbsp;Groups</A>=20
+  </TD></TR></TBODY></TABLE></DIV>
+<DIV class=3Dbottom>
+<DIV class=3Dbody>
+<DIV style=3D"FLOAT: left"><SPAN class=3Dygrp-pname>cone_cores</SPAN> =
+<SPAN=20
+class=3Dygrp-grdescr>=B7 C-One cores</SPAN> </DIV>
+<SCRIPT>function clearText(thefield){=0A=
+if (thefield.defaultValue=3D=3Dthefield.value)=0A=
+thefield.value =3D ""=0A=
+}</SCRIPT>
+
+<DIV style=3D"CLEAR: none; FLOAT: right">
+<FORM action=3D/search method=3Dget><INPUT onfocus=3DclearText(this); =
+size=3D40=20
+value=3D"Search for other groups..." name=3Dquery> <INPUT type=3Dsubmit =
+value=3DSearch>=20
+</FORM></DIV></DIV><SPAN class=3Dcorner-bottom><SPAN=20
+class=3Dcorner-left></SPAN></SPAN></DIV></DIV></DIV>
+<DIV class=3Ddoc-layout-body>
+<TABLE class=3Ddoc-layout-3 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dygrp-gnav vAlign=3Dtop width=3D"1%">
+      <DIV class=3Dygrp-container-border id=3Dygrp-menu><SPAN =
+class=3Dcorner-top><SPAN=20
+      class=3Dcorner-left></SPAN></SPAN>
+      <DIV class=3Dygrp-contentblock>
+      <UL class=3D"ygrp-ul menulist">
+        <LI><A =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/">Home</A>=20
+        <LI class=3Dactive><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/messages">Messages<=
+/A>=20
+
+        <LI><A class=3Dsublink=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post">Post</A>=20
+        <LI><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/links">Links</A>=20
+        <LI><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/database">Database<=
+/A>=20
+
+        <LI><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/polls">Polls</A>=20
+        <LI><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/members">Members</A=
+>=20
+
+        <LI><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/cal">Calendar</A>=20
+        </LI></UL>
+      <DIV class=3Dmenulist-hr></DIV>
+      <UL class=3D"ygrp-ul menulist">
+        <LI><A=20
+        =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/promote">Promote</A=
+>=20
+        </LI></UL></DIV><SPAN class=3Dcorner-bottom><SPAN=20
+      class=3Dcorner-left></SPAN></SPAN></DIV>
+      <DIV class=3Dygrp-container-border id=3Dygrp-gtips><SPAN=20
+      class=3Dcorner-top><SPAN class=3Dcorner-left></SPAN></SPAN>
+      <DIV class=3Dygrp-contentblock>
+      <H4>Yahoo! Groups Tips</H4>
+      <H5>Did you know...</H5><SPAN class=3Dsmalltype>Want to share =
+photos of your=20
+      group with the world? <A=20
+      =
+href=3D"http://us.rd.yahoo.com/evt=3D43312/SIG=3D11uoiac0u/**http%3A%2F%2=
+Fwww.flickr.com%2Fgroups%2Fyahoogroupsphotos%2F">Add=20
+      a group photo to Flickr.</A></SPAN> </DIV><SPAN =
+class=3Dcorner-bottom><SPAN=20
+      class=3Dcorner-left></SPAN></SPAN></DIV>
+      <DIV class=3Dygrp-container-border id=3Dygrp-mgl-promo><SPAN=20
+      class=3Dcorner-top><SPAN class=3Dcorner-left></SPAN></SPAN>
+      <DIV class=3Dygrp-contentblock>
+      <H4><A =
+href=3D"http://advision.webevents.yahoo.com/bestofyahoogroups/">Best=20
+      of Y! Groups</A></H4>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 valign=3D"top">
+        <TBODY>
+        <TR>
+          <TD><A=20
+            =
+href=3D"http://advision.webevents.yahoo.com/bestofyahoogroups/"><IMG=20
+            height=3D77=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ads/bestofygroups.jpg" =
+
+            width=3D46></A></TD>
+          <TD>&nbsp;&nbsp;</TD>
+          <TD>Check them out and nominate your=20
+      group.</TD></TR></TBODY></TABLE></DIV><SPAN =
+class=3Dcorner-bottom><SPAN=20
+      class=3Dcorner-left></SPAN></SPAN></DIV></TD>
+    <TD vAlign=3Dtop>
+      <TABLE class=3Dygrp-titlebar id=3Dygrp-titlebarhr cellSpacing=3D0=20
+        cellPadding=3D0><TBODY>
+        <TR>
+          <TD noWrap>
+            <H3>Messages</H3></TD>
+          <TD class=3Dygrp-nowrap align=3Dright width=3D"100%">&nbsp; =
+</TD>
+          <TD style=3D"PADDING-LEFT: 20px" noWrap><A class=3Dsmalltype=20
+            =
+href=3D"http://help.yahoo.com/l/us/yahoo/groups/original/members/web/inde=
+x.htmlmessages">Messages=20
+            Help</A> </TD></TR></TBODY></TABLE>
+      <DIV class=3Dygrp-topic>
+      <TABLE class=3Dheadview cellSpacing=3D0 cellPadding=3D0>
+        <TBODY>
+        <TR>
+          <TD style=3D"TEXT-ALIGN: left" noWrap>
+            <DIV class=3Dsearcharea style=3D"TEXT-ALIGN: left">
+            <DIV class=3Dsearcharea style=3D"TEXT-ALIGN: left">
+            <FORM class=3Dgetmessagenumber =
+action=3D/group/cone_cores/message=20
+            method=3Dget>
+            <DIV class=3Dsearch><INPUT type=3Dhidden value=3D1=20
+            name=3DMessage.JumpSubmitCheck> <INPUT type=3Dhidden =
+value=3D1=20
+            name=3Dthreaded> Message # <INPUT maxLength=3D8 size=3D3=20
+            name=3DMessage.Number.Input> <INPUT class=3Dygrp-button =
+type=3Dsubmit value=3DGo> </DIV></FORM>
+            <FORM onsubmit=3DsetDocumentCharset(this)=20
+            action=3D/group/cone_cores/msearch method=3Dget>
+            <DIV class=3Dsearch>Search: <INPUT name=3Dquery> <INPUT =
+class=3Dygrp-button type=3Dsubmit value=3DSearch name=3Dsubmit>=20
+            <INPUT type=3Dhidden name=3Dcharset> </DIV></FORM><A =
+class=3Dsmalltype=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/msearch_adv">Advanc=
+ed</A></DIV></DIV></TD>
+          <TD>
+            <DIV class=3Dheadview><A class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post">Start=20
+            Topic</A> </DIV></TD></TR></TBODY></TABLE>
+      <TABLE class=3D"headview headnav" cellSpacing=3D0 cellPadding=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dygrp-topic-title align=3Dleft>Modding FPGA64</TD>
+          <TD class=3Dviewright>&nbsp; <A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/messages/89?o=3D1&a=
+mp;xm=3D1&amp;l=3D1">Message=20
+            List</A> &nbsp; </TD></TR></TBODY></TABLE></DIV><!-- start =
+content include -->
+      <SCRIPT language=3Djavascript=20
+      =
+src=3D"http://us.js1.yimg.com/us.yimg.com/lib/g/util/yg_cookie_1_2.js"=20
+      type=3Dtext/javascript>=0A=
+</SCRIPT>
+
+      <SCRIPT type=3Dtext/javascript>=0A=
+var ygrp_p =3D new yg_cookie();=0A=
+function set_gmp(p){ if (p =3D=3D "") ygrp_p.remove("GMP");=0A=
+else=0A=
+ygrp_p.set("GMP",p);=0A=
+}=0A=
+function clear_gmp() {=0A=
+ygrp_p.remove("GMP");=0A=
+}=0A=
+</SCRIPT>
+
+      <SCRIPT language=3Djavascript=20
+      =
+src=3D"http://us.js1.yimg.com/us.yimg.com/lib/g/util/yg_cookie_1_2.js"=20
+      type=3Dtext/javascript>=0A=
+</SCRIPT>
+
+      <SCRIPT type=3Dtext/javascript>=0A=
+var ygrp_ck =3D new yg_cookie();=0A=
+var envPref =3D ygrp_ck.get('GMI');=0A=
+function pref(){=0A=
+if (envPref){ // if pref is open=0A=
+msgInfo(); // toggle the display, default is close=0A=
+} // otherwise, don't do anything default is close=0A=
+getDocumentCharset();=0A=
+}=0A=
+function getDocumentCharset()=0A=
+{=0A=
+var charset =3D (typeof document.charset =3D=3D "undefined" || =
+document.charset =3D=3D null) ? document.characterSet : document.charset;=0A=
+var msxml =3D =
+['Microsoft.XMLHTTP','MSXML2.XMLHTTP.5.0','MSXML2.XMLHTTP.4.0','MSXML2.XM=
+LHTTP.3.0','MSXML2.XMLHTTP'];=0A=
+var http;try{http=3Dnew XMLHttpRequest();}catch(e){for(var =
+i=3D0;i<msxml.length;++i){try{http=3Dnew =
+ActiveXObject(msxml[i]);if(http){break;}}catch(e){}}}=0A=
+if(http){http.open('GET','../modapi?cmd=3Ded&c=3D'+charset+'&z=3D/message=
+/89',true);http.send(null);}=0A=
+}=0A=
+function msgInfo(){=0A=
+var x =3D document.getElementById('x');=0A=
+var l =3D document.getElementById('l');=0A=
+var i =3D document.getElementById('i');=0A=
+x.style.display =3D (x.style.display =3D=3D 'none') ? 'inline' : 'none';=0A=
+l.innerHTML =3D (l.innerHTML =3D=3D "Hide Message Option") ? "Show =
+Message Option" : "Hide Message Option";=0A=
+i.src =3D (i.src =3D=3D =
+'http://us.i1.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_closed_dna.gif=
+') ? =
+'http://us.i1.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_open_dna.gif' =
+: =
+'http://us.i1.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_closed_dna.gif=
+';=0A=
+if (x.style.display =3D=3D "inline"){=0A=
+ygrp_ck.set("GMI","true");=0A=
+} else {=0A=
+ygrp_ck.remove("GMI");=0A=
+}=0A=
+}=0A=
+</SCRIPT>
+
+      <DIV class=3Dygrp-container-border id=3Dygrp-msg-exp><SPAN=20
+      class=3Dcorner-top><SPAN class=3Dcorner-left></SPAN></SPAN>
+      <DIV class=3Dygrp-contentblock>
+      <DIV class=3Dfootaction style=3D"MARGIN-TOP: -3px">
+      <TABLE class=3Dfootaction cellPadding=3D4 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD class=3Dsmalltype noWrap align=3Dleft width=3D"20%"><A=20
+            class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?act=3Dreply&am=
+p;messageNum=3D89">Reply</A>=20
+            | <A class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?act=3Dforward&=
+amp;messageNum=3D89">Forward</A>=20
+          </TD>
+          <TD class=3Dsmalltype align=3Dmiddle></TD>
+          <TD class=3Dsmalltype style=3D"VERTICAL-ALIGN: bottom" noWrap =
+align=3Dright=20
+          width=3D"20%"><SPAN style=3D"FONT-WEIGHT: bold">Message =
+#89</SPAN>=20
+            <SPAN>of 228</SPAN>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/88\" =
+onclick=3D\"setPageP('?var=3D1&amp;l=3D1');return =
+true;\">&lt;&nbsp;Prev</a>");=0A=
+// -->=0A=
+</SCRIPT>
+             <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/88?var=3D1&=
+amp;l=3D1">&lt;&nbsp;Prev</A>=20
+            </NOSCRIPT>|
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/90\" =
+onclick=3D\"setPageP('?var=3D1&amp;l=3D1');return =
+true;\">Next&nbsp;&gt;</a>");=0A=
+// -->=0A=
+</SCRIPT>
+             <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/90?var=3D1&=
+amp;l=3D1">Next&nbsp;&gt;</A>=20
+            </NOSCRIPT></TD></TR></TBODY></TABLE></DIV>
+      <TABLE class=3Dwide cellSpacing=3D0 cellPadding=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3D"msg content user first">
+            <DIV class=3D"subject root grey">Re: [cone_cores] Re: =
+Modding FPGA64=20
+            </DIV><BR>
+            <DIV class=3Dmsgarea>At 13:41 01.05.2007 +0000, sixofdloc=20
+            wrote:<BR><BR>&gt;Aye, that would be useful. Is it already =
+up=20
+            somewhere?<BR><BR>The pinout of the CPU slot is on the web=20
+            page,<BR>but that does not tell you exactly how the CPU/RAM =
+card is=20
+            wired.<BR><BR>Unfortunately, I lost the CAD data of the=20
+            CPU/RAM<BR>card in a harddrive crash in february 2006, so =
+I<BR>had=20
+            to reverse-engineer my own CPU/RAM card.<BR>Wasn't too hard, =
+as most=20
+            of the CPU pins are<BR>identical to the onboard CPU socket. =
+The=20
+            whole<BR>secret was how I was planning to control the memory =
+when I=20
+            made that thing.<BR><BR>The lines MX, VPA and VDA of the =
+65816 are=20
+            not<BR>available. This does not hurt at all, because<BR>they =
+are not=20
+            doing anything important (at least<BR>nothing that you can't =
+do with=20
+            intelligent FPGA<BR>programming). All other CPU lines are =
+connected=20
+            like in the schematics.<BR><BR>VDA/VPA: This pair of lines =
+gives=20
+            information<BR>about the type of access. Since the C-One =
+wants<BR>to=20
+            be as C64 compatible as it's possible with the<BR>65816, =
+there's no=20
+            need to make a difference<BR>between program/data/opcode =
+fetch=20
+            addresses. One<BR>thing you can't see is if the cycle is =
+idle,=20
+            but<BR>that shouldn't hurt, as the 6502 also makes =
+idle<BR>read=20
+            accesses without a possibility to identify them on the=20
+            outside.<BR><BR>MX: Memory index/Select status. This is an=20
+            output<BR>line from the processor that reflects two bits =
+of<BR>the=20
+            status register (multiplexed with Phi2). We don't need=20
+            that.<BR><BR>The MX line is not used on the CPU/RAM card at=20
+            all.<BR><BR>The VDA line is connected to the CE line of =
+the<BR>128K=20
+            S-Ram (this is 1k100 pin no. 109)<BR>The VPA line is =
+connected to=20
+            address line A16 of<BR>the 128K S-Ram (this is 1k100 pin no. =
+
+            202)<BR>The RW line of the processor is connected to =
+the<BR>WE line=20
+            of the 128K S-Ram (this is 1k100 pin no. 206)<BR>The OE line =
+of the=20
+            S-Ram is grounded.<BR><BR>Here's the idea of how the 65816 =
+can be=20
+            embedded<BR>into the C-One without bigger =
+problems:<BR><BR>The BE=20
+            line tri-states the address bus, the data<BR>bus and the WE =
+line.=20
+            BE=3D1 means that the CPU has<BR>control, BE=3D0 means that =
+the FPGA has=20
+            control.<BR>The BE line is on pin 208 of the =
+1k100.<BR><BR>The big=20
+            difference between the 6510 and the 65816<BR>is that the =
+data bus is=20
+            *always* driven during<BR>Phi2=3D0 - the 65816 is =
+transferring the=20
+            bank<BR>address during this cycle, and you might want =
+to<BR>get the=20
+            bank address as well - this will require<BR>a slightly =
+different=20
+            (sub-cycle) timing than in<BR>the original C64. Nothing =
+fancy, just=20
+            inserting<BR>the VIC cycle at a slightly different position =
+within a=20
+            cycle.<BR><BR>In case you're worried about the OE line of=20
+            the<BR>128K S-Ram grounded, that's the perfect way =
+of<BR>saving an=20
+            IO line. Both a read and a write cycle<BR>can be =
+CE-controlled. Make=20
+            sure to release the CE<BR>line slightly before the end of a =
+PHI=20
+            cycle for a<BR>write access, and slightly later for a =
+read<BR>access=20
+            from memory so you meet the CPU's data hold =
+requirements.<BR><BR>I=20
+            have drawn two full PHI cycles with interleaved<BR>VIC =
+(FPGA)=20
+            cycles: They're 1MHz only and<BR>interleave VIC (FPGA) =
+cycles with=20
+            CPU cycles. VIC<BR>cycles are always read, CPU cycles can be =
+
+            both,<BR>therefore one is a read, the other a =
+write<BR>access. Three=20
+            things that you should should mind<BR>(look for stars in the =
+
+            sketch):<BR><A=20
+            =
+href=3D"http://c64upgra.de/c-one/pics/65816_cone.jpg">http://c64upgra.de/=
+c-one/pics/65816_cone.jpg</A><BR>(doesn't=20
+            look nice, but you'll ge the idea)<BR><BR>*1: Push the RW =
+line high=20
+            before you pull the<BR>ram-CE line low for the VIC read=20
+            access.<BR>*2: Hold ram-CE low slightly longer than =
+the<BR>falling=20
+            edge of the PHI clock (PHI clock is pin 163 of the =
+1k100)<BR>*3: on=20
+            a write cycle, end the enable for the ram<BR>slightly before =
+the end=20
+            of a PHI cycle to be safe from data transitions.<BR><BR>My =
+guess=20
+            would be that the overloaded C-One<BR>data/address bus can =
+make=20
+            maybe 8MHz. That would<BR>mean reliable 7MHz operation of =
+the=20
+            65816<BR>(slightly less with badlines). With two =
+VIC/FPGA<BR>cycles,=20
+            you would still have 6MHz operation<BR>during a badline. =
+Better than=20
+            Flash8!<BR><BR>Remember to give the data bus drivers of the=20
+            FPGA<BR>and the CPU enough time to enable/disable. =
+You<BR>cannot use=20
+            the inverted BA signal in your 1k100<BR>to enable/disable =
+the local=20
+            bus drivers. You<BR>*must* generate a completely new signal =
+that=20
+            has<BR>no corresponding edge (negative overlap) - =
+leave<BR>at least=20
+            10ns turnaround time (one 100MHz cycle).<BR><BR>good=20
+            night,<BR>--<BR>Jens =
+Sch=F6nfeld<BR><BR><BR><BR><BR></DIV></TD>
+          <TD class=3D"info env first">
+            <DIV class=3D"smalltype ygrp-nowrap">Sun =
+May&nbsp;20,&nbsp;2007=20
+            8:54&nbsp;am </DIV><BR>
+            <DIV class=3Dsmalltype><A onclick=3D"msgInfo();return =
+false;"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/89#"><IMG=20
+            id=3Di alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_closed_d=
+na.gif">=20
+            <SPAN id=3Dl>Show Message Option</SPAN> </A>
+            <HR>
+            </DIV>
+            <DIV id=3Dx style=3D"DISPLAY: none"><SPAN =
+class=3Dsmalltype><A=20
+            class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/89?source=3D=
+1&amp;var=3D1&amp;l=3D1">View=20
+            Source</A><BR><A class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/89?var=3D0&=
+amp;l=3D1">Use&nbsp;Fixed&nbsp;Width&nbsp;Font</A><BR><A=20
+            class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/89?unwrap=3D=
+1&amp;var=3D1&amp;l=3D1">Unwrap&nbsp;Lines</A><BR></SPAN>
+            <HR>
+            </DIV>
+            <DIV style=3D"FONT-WEIGHT: bold">Jens Schoenfeld =
+&lt;jens@...&gt;=20
+            </DIV><SPAN class=3Dname><A=20
+            =
+href=3D"http://profiles.yahoo.com/paradroid23">paradroid23</A>=20
+            </SPAN><BR><A class=3D"smalltype ygrp-nowrap" =
+title=3DOffline=20
+            href=3D"ymsgr:sendIM?paradroid23"><IMG height=3D12 =
+alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12> Offline</A> <BR><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DBTWhx=
+h4VZ79k24YcUxS6CxipL0H8Z_8Z6_NbJh5XCLQ23eVRHe1LkR4gzErLqeepDCnUF01fMfM6p1=
+FD-7CgPXDiW6Oj-lJGcg"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12> Send Email</A> <BR><BR>
+            <DIV class=3D"smalltype =
+ygrp-nowrap"></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3Dfootaction>
+      <DIV class=3Dlist-action-bottom-right>
+      <DIV class=3Dfootaction>
+      <TABLE class=3Dfootaction cellPadding=3D2 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD noWrap align=3Dleft width=3D"20%">
+            <FORM action=3D/group/cone_cores/post method=3Dget><INPUT =
+type=3Dhidden=20
+            value=3Dreply name=3Dact> <INPUT type=3Dhidden value=3D89 =
+name=3DmessageNum> <INPUT class=3Dygrp-action type=3Dsubmit =
+value=3DReply> </FORM><SPAN=20
+            class=3Dsmalltype style=3D"VERTICAL-ALIGN: bottom"><A=20
+            class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?act=3Dforward&=
+amp;messageNum=3D89">Forward</A>=20
+            </SPAN></TD>
+          <TD class=3Dsmalltype style=3D"VERTICAL-ALIGN: bottom" =
+align=3Dmiddle></TD>
+          <TD class=3Dsmalltype style=3D"VERTICAL-ALIGN: bottom" noWrap =
+align=3Dright=20
+          width=3D"20%"><SPAN style=3D"FONT-WEIGHT: bold">Message =
+#89</SPAN>=20
+            <SPAN>of 228</SPAN>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/88\" =
+onclick=3D\"setPageP('?var=3D1&amp;l=3D1');return =
+true;\">&lt;&nbsp;Prev</a>");=0A=
+// -->=0A=
+</SCRIPT>
+             <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/88?var=3D1&=
+amp;l=3D1">&lt;&nbsp;Prev</A>=20
+            </NOSCRIPT>|
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/90\" =
+onclick=3D\"setPageP('?var=3D1&amp;l=3D1');return =
+true;\">Next&nbsp;&gt;</a>");=0A=
+// -->=0A=
+</SCRIPT>
+             <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/90?var=3D1&=
+amp;l=3D1">Next&nbsp;&gt;</A>=20
+            </NOSCRIPT></TD></TR></TBODY></TABLE></DIV></DIV><SPAN=20
+      class=3Dcorner-bottom><SPAN =
+class=3Dcorner-left></SPAN></SPAN></DIV></DIV>
+      <DIV=20
+      style=3D"PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: =
+4px; PADDING-TOP: 4px"></DIV>
+      <DIV class=3Dygrp-container-border id=3Dygrp-msg-exp><SPAN=20
+      class=3Dcorner-top><SPAN class=3Dcorner-left></SPAN></SPAN>
+      <DIV class=3Dygrp-contentblock>
+      <DIV class=3Dmsgarea>
+      <TABLE class=3Ddatatable id=3Dygrp-msglist cellSpacing=3D0 =
+cellPadding=3D0>
+        <TBODY>
+        <TR>
+          <TH class=3Dmessage><A class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/messages/59?threade=
+d=3D1&amp;m=3De&amp;var=3D1&amp;tidx=3D1">Expand=20
+            Messages</A> </TH>
+          <TH class=3Dinfo>Author</TH>
+          <TH class=3D"date selected" noWrap><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/89?o=3D0&am=
+p;var=3D1&amp;l=3D1">Sort=20
+            by Date</A> </TH></TR>
+        <TR class=3Dfirstrow>
+          <TD class=3D"message ">
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/59\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1');return =
+true;\"><span>Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/59?threaded=
+=3D1&amp;var=3D1&amp;l=3D1"><SPAN>Modding=20
+            FPGA64</SPAN></A> </NOSCRIPT><BR>Moderator, if this is not=20
+            appropriate for this list, please delete and direct me to =
+the proper=20
+            place for this sort of question. Now, I'm modding the =
+current... </TD>
+          <TD class=3D"info "><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/sixofdloc">sixofdloc</A>=20
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?sixofdloc"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DN8Esa=
+vE8Wkwj6bB7VOwBrob5KqTun6mfmjSgQoTOw0GyFf0Mu82vgxxKqjHEZOUn3a4L9piPHFFYJ5=
+EiGOIU"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;1,&nbsp;2007 <BR>11:51&nbsp;am =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent1>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/60\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D1');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/60?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D1"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>... The 65816 is on =
+the=20
+            same address and data bus as the memory and lots of other =
+parts of=20
+            the C-One mainboard, therefore it will most probably not run =
+at=20
+            full... </DIV></TD>
+          <TD class=3D"info ">Jens Schoenfeld<BR><SPAN class=3Dname><A=20
+            =
+href=3D"http://profiles.yahoo.com/paradroid23">paradroid23</A>=20
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?paradroid23"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DgIbB5=
+enda3p-bIeSgRTJuyTkPZMZgERN039vvAA_pj07d1wdZrN7J_EFCfqtlYiJfEGYcZezldJiM4=
+g"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;1,&nbsp;2007 <BR>6:06&nbsp;pm =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent1>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/61\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D2');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/61?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D2"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>Hi, A little =
+problem with=20
+            the C-One is that the 65816 is sharing the bus signals with =
+the 128K=20
+            SRAM. So for enabling the 65816 it would be easier if the =
+SDRAM...=20
+            </DIV></TD>
+          <TD class=3D"info ">Peter<BR><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/pwsoft2005">pwsoft2005</A> =
+
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?pwsoft2005"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DmlLB6=
+MIsWEz3qb7jbFuW6093q3hsi0uMhiZ8mGpxtOyimEIDVRI2oPj0XdkiKTHtdQdGcXD8elS4">=
+<IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;1,&nbsp;2007 <BR>6:13&nbsp;pm =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent2>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/62\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D3');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/62?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D3"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>... Well, once I'm =
+done=20
+            modding, the core won't have much compatibility anyway. I'll =
+have a=20
+            try at using the SDRAM then. ... Ooh, I hadn't considered =
+that....=20
+            </DIV></TD>
+          <TD class=3D"info "><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/sixofdloc">sixofdloc</A>=20
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?sixofdloc"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DTMwgg=
+H6_RD8FnBbtgSeoK5T9SXNj7LZIvsqKnpMO4Eeeq9-0_NOVEg7oxYSrJKWQRGLAffpEmL3guL=
+OhkzotM7dLBQ"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;1,&nbsp;2007 <BR>11:52&nbsp;pm =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent3>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/73\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D4');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/73?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D4"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>Dear all, isn't it =
+possible=20
+            to use some space in the upper area of the 128k RAM for the =
+color=20
+            ram? I think, the upper 64k are only used as ROM area, =
+right? ...=20
+            </DIV></TD>
+          <TD class=3D"info "><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/majorsky78">majorsky78</A> =
+
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?majorsky78"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DdWRb4=
+Q6xp87SBo2q-KUswgaG-g0wUdt5CMlcVCiLI6T6Dswyf0FkVu41bWllefJeb08U_GLF1DN0pw=
+bSZxXi"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;15,&nbsp;2007 <BR>10:42&nbsp;pm =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent4>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/74\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D5');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/74?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D5"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>Hi Andre, ... There =
+is=20
+            about 40k free in the SRAM. Putting the color ram there =
+takes 1=20
+            extra memory cycle so the VIC-II code needs to be changed so =
+it=20
+            allowes... </DIV></TD>
+          <TD class=3D"info ">Peter<BR><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/pwsoft2005">pwsoft2005</A> =
+
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?pwsoft2005"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3D612ne=
+_WU9cDu9iFmb6S6QQCp0ctQWqkjAFCm7lthvqV9S546xBwNx6TyJJSYJ4uVNWZnDnVTgx8"><=
+IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;15,&nbsp;2007 <BR>11:32&nbsp;pm =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent5>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/75\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D6');return =
+true;\"><span>CF bug</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/75?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D6"><SPAN>CF=20
+            bug</SPAN></A> </NOSCRIPT><BR>Hi, You may know this CF =
+filesystem=20
+            bug : when you add some files, they are not appear on the=20
+            file-selector (mainly on the CPC core). I remember that =
+Jens...=20
+            </DIV></TD>
+          <TD class=3D"info ">Chris [xc8/Bronx]<BR><SPAN class=3Dname><A =
+
+            href=3D"http://profiles.yahoo.com/csynt">csynt</A> =
+</SPAN><BR><SPAN=20
+            class=3Dygrp-nowrap><A class=3D"smalltype ygrp-nowrap" =
+title=3DOffline=20
+            href=3D"ymsgr:sendIM?csynt"><IMG height=3D12 alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DCBFTt=
+PwVX6DPftegZBRsB-q-1Rz-8_9X6ODTJDklMrfYk_4_jRzBq6dLr_nPCvrioCWtBi2OqvVstQ=
+"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;16,&nbsp;2007 <BR>12:04&nbsp;am =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent5>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/76\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D7');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/76?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D7"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>On 15.05.2007 at =
+15:31,=20
+            Peter wrote: Hi Peter... ... This might be a new candidate =
+for a=20
+            high-end compatibility test-case in case of VIC-II tricks... =
+...=20
+            </DIV></TD>
+          <TD class=3D"info ">Philip Timmermann<BR><SPAN class=3Dname><A =
+
+            href=3D"http://profiles.yahoo.com/p3p7o">p3p7o</A> =
+</SPAN><BR><SPAN=20
+            class=3Dygrp-nowrap><A class=3D"smalltype ygrp-nowrap" =
+title=3DOffline=20
+            href=3D"ymsgr:sendIM?p3p7o"><IMG height=3D12 alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DQu1AN=
+4KrFusv643JG4-LlIX3iV1GjAH2I1dQgYEsPTdrzMpU5uXeANYluc-c9LA_n1D-tL3oNQ"><I=
+MG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;16,&nbsp;2007 <BR>8:15&nbsp;am =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent1>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/63\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D8');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/63?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D8"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>... again? Aye, =
+that would=20
+            be useful. Is it already up somewhere?... </DIV></TD>
+          <TD class=3D"info "><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/sixofdloc">sixofdloc</A>=20
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?sixofdloc"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DRYBNm=
+DXaTbLKVxsAEuqyOwFuKtEhXRoEkNRmFQPnc5elcUVcUljJiwoVH5BSuxzi0PWuY51eXq10wa=
+Qsalxs"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;1,&nbsp;2007 <BR>11:53&nbsp;pm =
+</TD></TR>
+        <TR>
+          <TD class=3D"message ">
+            <DIV class=3Dygrp-indent2>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/64\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D9');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/64?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D9"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>Hi, nice to hear =
+about such=20
+            a thing. The pinouts should all be in the schematics of the =
+C-One,=20
+            which you can find under www.c64upgra.<WBR>de. Expanding the =
+
+            color... </DIV></TD>
+          <TD class=3D"info "><SPAN class=3Dname><A=20
+            href=3D"http://profiles.yahoo.com/majorsky78">majorsky78</A> =
+
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?majorsky78"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3D-DO48=
+DJ7djiFbjEIqaRLgMjHoLLk8UoxGiYC73w_pdYRLmSpRqxX0pGJNc0170EJhlJhM6fHR_TCCs=
+EdMrZQ"><IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3Ddate>May&nbsp;3,&nbsp;2007 <BR>5:43&nbsp;am =
+</TD></TR>
+        <TR>
+          <TD class=3D"message footaction">
+            <DIV class=3Dygrp-indent2>
+            <DIV class=3Dygrp-elbow><IMG class=3Dygrp-ielbow height=3D9 =
+alt=3D""=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif"=20
+            width=3D13></DIV>
+            <SCRIPT type=3Dtext/javascript>=0A=
+<!--=0A=
+document.writeln("<a href=3D\"/group/cone_cores/message/89\" =
+onclick=3D\"set_gmp('?threaded=3D1&var=3D1&l=3D1&p=3D10');return =
+true;\"><span>Re: Modding FPGA64</span></a>");=0A=
+// -->=0A=
+</SCRIPT>
+            <NOSCRIPT><A=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/89?threaded=
+=3D1&amp;var=3D1&amp;l=3D1&amp;p=3D10"><SPAN>Re:=20
+            Modding FPGA64</SPAN></A> </NOSCRIPT><BR>... The pinout of =
+the CPU=20
+            slot is on the web page, but that does not tell you exactly =
+how the=20
+            CPU/RAM card is wired. Unfortunately, I lost the CAD data of =
+the...=20
+            </DIV></TD>
+          <TD class=3D"info footaction">Jens Schoenfeld<BR><SPAN =
+class=3Dname><A=20
+            =
+href=3D"http://profiles.yahoo.com/paradroid23">paradroid23</A>=20
+            </SPAN><BR><SPAN class=3Dygrp-nowrap><A class=3D"smalltype =
+ygrp-nowrap"=20
+            title=3DOffline href=3D"ymsgr:sendIM?paradroid23"><IMG =
+height=3D12=20
+            alt=3DOffline=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif"=20
+            width=3D12></A> <A class=3D"smalltype ygrp-nowrap" =
+title=3D"Send Email"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post?postID=3DkntqM=
+HIe7iamah4OsdZxwa7MKZnFVlTM7vVIrZvvsr524Q-U3yJpAp-isWAyV1Rk1hVaF6NTpZ8"><=
+IMG=20
+            height=3D12 alt=3D"Send Email"=20
+            =
+src=3D"http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif"=20
+            width=3D12></A> </SPAN></TD>
+          <TD class=3D"date footaction">May&nbsp;20,&nbsp;2007 =
+<BR>8:56&nbsp;am=20
+          </TD></TR>
+        <TR>
+          <TD class=3Dygrp-blank colSpan=3D6></TD></TR></TBODY></TABLE>
+      <DIV class=3Dygrp-topicnav></DIV></DIV></DIV>
+      <DIV class=3Dfootaction>
+      <DIV class=3Dlist-action-bottom-right>
+      <DIV class=3Dfootaction style=3D"TEXT-ALIGN: center"><A=20
+      =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/78?var=3D1&=
+amp;l=3D1">&lt;&nbsp;Prev=20
+      Topic </A>&nbsp;|&nbsp; <A=20
+      =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/message/86?var=3D1&=
+amp;l=3D1">Next=20
+      Topic&nbsp;&gt; </A></DIV></DIV><SPAN class=3Dcorner-bottom><SPAN=20
+      class=3Dcorner-left></SPAN></SPAN></DIV></DIV><!-- end content =
+include -->
+      <DIV class=3Dygrp-topic>
+      <TABLE class=3D"footview footnav" cellSpacing=3D0 cellPadding=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dviewright></TD></TR></TBODY></TABLE>
+      <TABLE class=3Dfootview cellSpacing=3D0 cellPadding=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dygrp-nowrap>
+            <DIV class=3Dsearcharea style=3D"TEXT-ALIGN: left">
+            <FORM class=3Dgetmessagenumber =
+action=3D/group/cone_cores/message=20
+            method=3Dget>
+            <DIV class=3Dsearch><INPUT type=3Dhidden value=3D1=20
+            name=3DMessage.JumpSubmitCheck> <INPUT type=3Dhidden =
+value=3D1=20
+            name=3Dthreaded> Message # <INPUT maxLength=3D8 size=3D3=20
+            name=3DMessage.Number.Input> <INPUT class=3Dygrp-button =
+type=3Dsubmit value=3DGo> </DIV></FORM>
+            <FORM onsubmit=3DsetDocumentCharset(this)=20
+            action=3D/group/cone_cores/msearch method=3Dget>
+            <DIV class=3Dsearch>Search: <INPUT name=3Dquery> <INPUT =
+class=3Dygrp-button type=3Dsubmit value=3DSearch name=3Dsubmit>=20
+            <INPUT type=3Dhidden name=3Dcharset> </DIV></FORM><A =
+class=3Dsmalltype=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/msearch_adv">Advanc=
+ed</A></DIV></TD>
+          <TD>
+            <DIV class=3Dfootview><A class=3D"action ygrp-nowrap"=20
+            =
+href=3D"http://tech.groups.yahoo.com/group/cone_cores/post">Start=20
+            Topic</A> </DIV></TD></TR></TBODY></TABLE>
+      <DIV id=3Dygrp-sponsored-links>
+      <DIV class=3Dygrp-adh>
+      <H4>SPONSOR RESULTS</H4></DIV>
+      <P><A=20
+      =
+href=3D"http://ypn-120.overture.com/d/sr/?xargs=3DhGvQkPCZMKhHai5zt1QXMGy=
+55KV5nvcioTZOmX4l0BAhwePgUrua8Bnrl0WuQmfwmuYT13urMif-Q3Z04-In6LMCnADVyQTX=
+QWdpjrNhOU_ps2s8Zcbx1py5aC4nzksHIaWxWNYhkpHzga1fmVyqpFX7QwqfXeVw4i4QTeWl4=
+0SZk_zHbXV0eKBQIOUC4tGzAuKMF9HdYwS_qfelCGKShkralUKJgltgOTL6vEJvUOin-6eC1L=
+_ZCdbbGnq0FlaE4C9ccIT7FzNH6T1m9XMLNmCoaKhJ61CN-9RKtTwGY6SUKTwr_dL3HhMRTNn=
+Gs1awnQ6jUbiEBNdXQyF6PKVhFufgttScQtcN5H69pLX_lrbZZZVRmwKByw">
+      <DIV class=3Dygrp-adt>Geek Squad Official Site</DIV><SPAN=20
+      class=3Dygrp-adu>www.geeksquad.<WBR>com</SPAN> <SPAN =
+class=3Dygrp-add>-=20
+      Upgrades, installs &amp; maintenance. Visit GeekSquad.com=20
+      today.</SPAN><BR></A>
+      <P></P>
+      <P><A=20
+      =
+href=3D"http://ypn-120.overture.com/d/sr/?xargs=3DPsMwB17cxL_Vldb5eIDFqZD=
+sNIfQp-H-NDrocUsM60IvZ99DabbdR1Nn9xhNmbW0Voe6JUzIneDAcDDoT3sbWG-UUtVRww2j=
+l9NcjF8s-cGI6-rwxMTx0SJTBHlwMYjYGEXpte83jXft4Izhmng2OxWLjuJLmCipwr6pUdRKP=
+nVHBvz-tclf8Jx4dPbO-SUS5MCyfDnVuaDuuwJLvWyT2TSbsFaZJlexkfInmHqF-BcxUtyTNX=
+XqYDiz8PRnvNqGpdhEppCIEyW5ilq6FQ0baSLnV3KXcPvm7fMXiJiwTxqUkAYLlImJJaugFni=
+aHpnkrDc8CkdN32QqTMMrgkpb_AdMqefA5EWICPCy4iO_ULMT4K452x14CA">
+      <DIV class=3Dygrp-adt>Computer Parts on Sale</DIV><SPAN=20
+      class=3Dygrp-adu>pcparts.grinmart.<WBR>com</SPAN> <SPAN =
+class=3Dygrp-add>-=20
+      CPUs, Motherboards, Memory, Drives Low Prices, Fast Shipping, Buy=20
+      Now.</SPAN><BR></A>
+      <P></P>
+      <P><A=20
+      =
+href=3D"http://ypn-120.overture.com/d/sr/?xargs=3DZKpUQTS-fTTPY-Y1G9Jvkp8=
+UKCUNIortRh6ZzvuP7bHtMMMvGrRebSYa1JcFvfLYDW2KQM3dvYlbK_pvwrg7gbAWcsWKHAQl=
+9tRR9uXH9sOqREnD0c7cro-xsngFzF3SanTvsW2tlNR3Ln_0xm3LmemlrIFxBzDM7sT4v2bG2=
+gNqyDYasNcaZfjjd28BM0t0r7aV0Px3mBitTQSQQklLT-7CyZu6U85mGkUGvAFDVbfKqHw6be=
+S3Z-bnhrnu9t6UNdK0_Y8OH5tE-YFmjqQJX1rbwLRRX3puJS_MsTwnjOB_a7MMqnADMW99Gz1=
+JtkWMLFezlbwEjBYv_MJrWHZgtVGc6sWworczmT1oSfgIJGv9dege3y3c6Q">
+      <DIV class=3Dygrp-adt>Quality Personal Computers Sale</DIV><SPAN=20
+      class=3Dygrp-adu>MyComputerSales.<WBR>info</SPAN> <SPAN =
+class=3Dygrp-add>-=20
+      Stop Looking! Get Top Quality Computers for Less Here. Great=20
+      Bargain.</SPAN><BR></A>
+      <P></P></DIV><SPAN=20
+class=3Dfooterbase></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV class=3Ddoc-layout-foot id=3Ddoc-foot>
+<HR>
+<SPAN class=3Dbeacon><SMALL>Copyright =A9 2007 Yahoo! Inc. All rights =
+reserved.=20
+<BR><A href=3D"http://privacy.yahoo.com/privacy/us/">Privacy Policy</A> =
+- <A=20
+href=3D"http://docs.yahoo.com/info/terms/">Terms of Service</A> - <A=20
+href=3D"http://groups.yahoo.com/local/guidelines.html">Guidelines</A> - =
+<A=20
+href=3D"http://help.yahoo.com/help/groups/">Help</A></SMALL><BR>&nbsp;=20
+</SPAN></DIV><!-- ad call: NE4 err #11 --><!-- SpaceID=3D0 noconn 61 =
+ads1 --><!-- ad call: PU err #11 --><!-- SpaceID=3D0 noconn 61 ads1 =
+--><!-- ad call: HEADR err #11 --><!-- SpaceID=3D0 noconn 61 ads1 =
+--><!-- ad call: FOOT err #11 --><!-- SpaceID=3D0 noconn 61 ads1 --><!-- =
+etime: 2.436 --><!-- w119.grp.scd.yahoo.com compressed/chunked Sat Feb  =
+2 05:23:33 PST 2008 --></BODY></HTML>
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/us/search/test/stw2.gif
+
+R0lGODlhJgAQAIABAGZmZv///yH5BAEAAAEALAAAAAAmABAAAAJVDB6pywwNX5KwTruoQlPyz2GH
+d21G+ZCYOXqIiopsdqlpaY0beHfxCgwKh8QczkhzVGBI5nGXCoV+ro6GesrWTr2uMhud3sY6p037
+BSevXNRUSykjCgA7
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/us/nt/ma/ma_tech-grp_1.gif
+
+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
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/yg/img/ads/bestofygroups.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgATQAuAwERAAIRAQMRAf/EAKAAAAMAAwEBAAAAAAAAAAAA
+AAUGBwIDBAEIAQADAQADAQAAAAAAAAAAAAADBAUCAAEGBxAAAgIBAwMDAgUCBgMAAAAAAQIDBAUR
+EgYAIRMxQSJRB4EjMxQVYTJxkcFCJBZSNAgRAAIBAgQACAsGBwEAAAAAAAECAwARITESBEFRYbEi
+QhMFcZHRMlJicpLC4hTwgaHBggaistIjQ3ODFf/aAAwDAQACEQMRAD8AZIcY7wo+g+Sg+g9x1R7v
+2O2bbxkxoSUXqjiHJXnkjGkYV7Ni2WpbfTaVrTsrBV1BEbEMNR6g9Fn2G2CG0ae6PJRoolLDAVw1
+sTj551RZrQgBcS2mmCqqx/3vpt1YD+nqe3UT6aL0E90VT+li9EeIUd4Hi8RNyrHxyRWH/MlSard2
+yxOhrSOrbSuh0Kg/066+li9BfdFc+mj9EeIVq59wjPZDM37EeYq8co1ZBHj6VWtBp4io0lnfRSS7
+eg9ukZYo1a2hfEKdi2UJHmr4hXARmrX2w/j4oKycyx+ZGIsXxWRd6Sbisx+OjL4ZA2v9NfXrMsUd
+lIVfO4h6LUtLs4xIg0ixbi9VqHx8xy9evNF/HSSiF1jgIU/JAdgIP4a9F23ecyxqoGAUc1S44+gP
+AK3vyPMmK3BbovGhgsKZdpI2CJtT0WHvGdyA2TUaNLNXDPm8OlgPXy8bxDXYCrA7S28K4aNgdren
+T+k1Q1Ci/EuY4HH8ipZK/k1mWBpDKyRvtjjMTproiDU7pB306y/RBJosETSuETFj5KZuQc44bm55
+JK9yk7ssYYzEqGCMdAd4UnTXXb1O3DKxuKsQbCdBZkPPRe3yvic2BpvXsQ7KtoC5o6aB5Kk6I7EH
+0Laev006FK66Fw63wtU6fbTCeMEHFjb3WrvweTmuV8bjRkBjIoqddIyNvkml8CuwUt7KvsOubd3d
+VUHSAq81LbNFWBWIuSBROLOsmMy0c1pbkVOrJYhyCaaPEEY6kj46qV9R0/s3btNDHIjGiSqLBhw1
+84Pd55y3kuRODzP8PjKUiROJJHXyTyrv+MXqImHqfT106qbttrC5DJrY8uA47V1HGzDCwtyUf4fz
+XkWS4lyPyB6V7C0LkPkgLDxtDC6rIkg+rJqG/wAusTuqoiqMGub+CsMpOonMUX4PlM+/B6Odtcjz
+ctqWLfIpnSVGK+uwSJLrr1867w/cG7i3bRLo034RVbb93pKBjbCjtzmOaazQhe/YZVjN2OQxwiwp
+8UsZA0TaSVYjuvRF79nfbmUhdccgHJiDS247uA3McdziT/K1Z43OcZpJVksXsc1tYoFileWBpIG8
+SrIrI0ilSCNp69Ds1kVQB5rKvMKV2Wh4EBIUheGiONznEpBloUyGLght1nqw479zXAkeRSCNiv8A
+7j20HTEQdnZnwwtWpnQaVWxsand24UBsS20wkM8nkdbeyJkjkRT+2SRvjIIu6jaOtppyNjVC4AxN
+MOFgsZL7X8rk2RR5XIQ36+Ooq8avJEw2wNoW1Go7AE6D8eiIg7UWNzakd05sb5Uk/bM/c/jOF/gL
+nH4LNZneWDzXI45I92m4KEEuq7u/p1D73/af1cvaAlG8GdY2/eIjFr/jTG+I+4AuJnrUeM8x21cf
+iorMhfZullkMzmLVfhqoIT6dust+2QkAgGr+42duEKx/KsTd53lSS4wPH6rUk2cLVtWJ2e4kbO7k
+oPUfL/d1Rh3sixqAuAUc1IQNeMeyK243j0UeWpPHer2dlqIugK7j811Hr3PRDv2YEFSL01G41Dw0
+q1uIWPuDn89c5HkpqsmOlnq46oiblDwakR+mir2H9W16yZezAAGdUkg7Ukk5ZUa+yPLLuCx+cxvI
+IJa9TBbJgWjYyxR2H2KgjALsC5GnTUTBZVcY55UrIhaMocPDVM5xi+LSSYPlqW5rM3gsR0Zqx8au
+s0RQhmGrBk3sVPseq0Q1yazhYWpIraPRnjepvBzPGXPt1axaZKZZMXbjjmyxnlLtFNOQriXXyK+1
+9u3/AEPSs8wJjW5uHz/Q9Bk29pFawsTl+k01UK3HK8V5sxa/5F4OiLHFJIyR9yNCNoDD19+vNgTa
+E0DAAHMY0baqvZC/oih9Ong58ti6+HtV5LUkkEEcYSWOV5fJtSXVgIw3y9+mUMjYMD+HiowA1KSc
+q04bjHNeG57NLyV6dGhk7Bt1oWuwiUsWPfajuQCO/cdGk2zECwxFVdvugrNfI1yHimXi4fznmnIJ
+Y4a1801iuQWorEYhjtxARfktK6s3YakdteixxuhFhkKXlkV734TQe59w8LLgq/HaVx7EdKexPE5i
+n8yx2yraEeMj4A9vr6+/VKOewuRjSJj4BlSHg6CxYnkmIOQ/LsirYWIRT+bZFbTWcqYxoQrjsNdS
+foNep8xOpMOt8LVmXzl9r4Wq25ebGUKyW41tGwjCNyoeJmaZNZFR1/uTYdB+IPRu7IO1VFBt0PyF
+EgIWFXIvgvNXfwepRfM4vJVqEg2vHaQ6n4uHUKgBGm3cp7+vtoNOtSwaJSpx0/a9FVUK6qSbMt/M
+5W3kr3ks3bhdye57k+gJ9FX067NcFL/Jrl7GcO5Hi4ZSa2QrQm9XVt0atFcgZG+m72J65eumoTJi
+4LXMs9BPGk6x/s2CyeQD/wBfsNYzqPoOgzyaBesqhYgAgeGs6mFpDkd3GCt+S2N2tX+em/8AkIff
+fu27hru3enfpWWXBG9b4WpeRH1KvW1fCarnN8kmN/hsfQuxVc3YevYFhh+WiSwbfzGI9dsn0PTvd
+7hYlNr9Acwrm3xjUeqOamjh+XrYeKvVv20t5DFf8m9FW1ZmUS+RmUPs1+Lano7yGQkgZ0YjSLZ0n
+cqk4bk8rYs8du3calhmeelNDHsRmOrbCs24An26DNrjBLI1h9uOsvMUzVvt99YT8S4pd+3uawtS6
+Y+QZqGPxZbKKK9KKKtPHZkAMRsS/JITpohJOg6WTeox0413rYvoKsrcRoRxz/wCfvulmRczOL5Fh
+ZkyCpBYsrLaDnwDxsuj0htOq+oGo06YBDVpktgaW8f8Ab3lpgyuTkzFP8qOHGR3PLOW0ntLMs/6O
+oi2VpBp+p6fDv0tKVug4NfwtQ5YSGQcZ+FqJ/wDaMPk/usKOcgiNeCuK+P3aAGxCBGvkJ7asEO3U
+/Trva3ECkcQ5qJtNPZqD6Iql2bk6Uskr1o6lqxWmFdZiiSSKkRLkbSx0VAe+vrp0zDLpIY5CmJAB
+l0jyVIsoIKLQSaNJM0iKzAswbeR31HbT/Hp//wBFdwjKoIOk51rabnSyysulA2NyMLcYzvVC+39f
+GZTINWt1VdBXsRWJJSRoJYWQfNj2Hf268yjWcLx+Snt7uxKbwdm0eBYjFsTh4Mfvqq4LKScP4vbj
+rJDdkhO6KMSgAzOVX8x13BV1bU9vT26cjLRrc0jOQ7jTw0otbyceO86wwG1PkEtvR1H7cWUMgHz2
+a+Lvrpt109tepLbkmYJfANe/3Hy0GcsZEXhBI/hapXx0fbocmzQvNVfkJszmJ8oESJVPoIFcvExD
+bu5YOT7AdVNq0vZLYLbSOseL2aRgZ+zXAeaOseL2aoNb+KWRP3n8VLZ8I/S8Uc/j3jTT9R9u7/x/
+HrJabSbgWx63y09t2k7VdKrq1LbpNnfDqUrZ3/r5ur49yNo2oi2uv4k7Br0rAz44D3vlr0Xe0h7M
+/UJBex/yHVl/rztlWnGCj+5tmE2zB4j51cKE9tmhJ11D6advX06I7HDorfg6Xy15TXAXj+lRBhj2
+bsV/6XjGN8uGqFxRtKuTLxI+DNqXclyQKom8i7tWVGc99P1FA06PCz4XVbcF2+Wi7hpr5Lq5GP8A
+TRC5JX/h6OsFUVgraFZiSR4ZP7h4wR37/wCP+fWpWHbJ0Y9Vz1uDSc+hlSMhl1Lhjq4znY8lf//Z
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_closed_dna.gif
+
+R0lGODlhDgAPAKIHAOXl5YWFhf///15eXtnZ2ejo6MfHxwAAACH5BAEAAAcALAAAAAAOAA8AAAMt
+eLrc/gwAuEAIk1qBdRBF92xEmDVkKUZBQRjBcFYfLI8BEc/s7t2UgyRIPCQAADs=
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/mesg/notonline.gif
+
+R0lGODlhDAAMAJH/AP///7+/v39/AMDAwCH5BAEAAAMALAAAAAAMAAwAQAIlnCcpZwIBEgxLzIdh
+zbneHzXOlDASVjaghkQJ4Drv+ngcaypMAQA7
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/sendemail.gif
+
+R0lGODlhDAAMAJEDALq6uqenp4SEhP///yH5BAEAAAMALAAAAAAMAAwAAAIbnI+pF+APQxAQijYr
+uC8/HlFbo02ghqbVwrYFADs=
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif
+
+R0lGODlhDQAJAIAAAPf395yanCH5BAEAAAAALAAAAAANAAkAAAIPDI6pm8YPHZyN2mMy0LkAADs=
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/global_200704120000.css
+
+BODY {
+	FONT: small/1.2em arial,helvetica,clean,sans-serif
+}
+TABLE {
+=09
+}
+HTML > BODY {
+	FONT: 83% arial,helvetica,clean,sans-serif
+}
+PRE {
+	FONT-SIZE: 100%
+}
+CODE {
+	FONT-SIZE: 100%
+}
+SELECT {
+	FONT-SIZE: 100%
+}
+INPUT {
+	FONT-SIZE: 100%
+}
+HTML {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+.doc-layout-head {
+	MIN-WIDTH: 764px; WIDTH: auto; TEXT-ALIGN: center
+}
+.doc-layout-body {
+	MIN-WIDTH: 764px; WIDTH: auto; TEXT-ALIGN: center
+}
+.doc-layout-foot {
+	MIN-WIDTH: 764px; WIDTH: auto; TEXT-ALIGN: center
+}
+.doc-layout-head {
+	MARGIN: 5px 9px 13px
+}
+.doc-layout-body {
+	MARGIN: 5px 9px 13px
+}
+#ygma {
+	MARGIN: 0px 9px
+}
+#ygma TD {
+	VERTICAL-ALIGN: middle
+}
+#doc-foot {
+	MARGIN: 0px 9px
+}
+.doc-layout-0 {
+	MIN-WIDTH: 700px; MARGIN: 0px auto; WIDTH: 56.4em; TEXT-ALIGN: left
+}
+.doc-layout-1 {
+	CLEAR: right; FLOAT: left; WIDTH: 160px; MARGIN-RIGHT: 13px; =
+TEXT-ALIGN: left
+}
+.doc-layout-2 {
+	CLEAR: right; FLOAT: left; WIDTH: 72%; TEXT-ALIGN: left
+}
+.doc-layout-3 {
+	WIDTH: 100%; TEXT-ALIGN: left
+}
+BODY {
+=09
+}
+TABLE {
+=09
+}
+DIV {
+	CLEAR: both
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; VERTICAL-ALIGN: middle; BORDER-RIGHT-WIDTH: 0px
+}
+H4 {
+	COLOR: #404040
+}
+* HTML BODY H4 {
+	COLOR: #333333
+}
+FORM {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM FIELDSET {
+	BORDER-RIGHT: transparent 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+transparent 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; BORDER-LEFT: transparent 0px solid; PADDING-TOP: 0px; =
+BORDER-BOTTOM: transparent 0px solid; POSITION: relative
+}
+FORM TEXTAREA {
+	MARGIN: 0px; OVERFLOW: auto
+}
+.ygrp-ul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.ygrp-ol {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 10px 30px; PADDING-TOP: 0px
+}
+.ygrp-ol LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 4px
+}
+P {
+	MARGIN: 0px 0px 10px
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #247cd4
+}
+A.opi:visited {
+	COLOR: #247cd4
+}
+A:visited {
+	COLOR: #9136ad
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.action {
+	COLOR: #247cd4
+}
+A.action:visited {
+	COLOR: #247cd4
+}
+A.action:hover {
+	COLOR: #247cd4
+}
+EM {
+	FONT-WEIGHT: bold; FONT-STYLE: normal
+}
+BODY SELECT {
+	MARGIN: 2px 0px; FONT: 74% verdana, arial, helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 130%
+}
+H3 {
+	FONT-SIZE: 118%; MARGIN: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+100%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: =
+0px; FONT: bold 74% verdana, arial, helvetica, sans-serif; PADDING-TOP: =
+0px
+}
+TT {
+	FONT-SIZE: 100%; COLOR: black; FONT-FAMILY: "Lucida Sans Typewriter", =
+"Courier New", monospace
+}
+PRE {
+	FONT-SIZE: 100%; COLOR: #202020; FONT-FAMILY: "Lucida Sans Typewriter", =
+"Courier New", monospace
+}
+DIV.emptyfolder {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 40px; =
+PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.centered {
+	TEXT-ALIGN: center
+}
+.inactive {
+	COLOR: #8a8a8a
+}
+BODY INPUT.ygrp-button {
+	BORDER-RIGHT: #a6a6a6 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: =
+#a6a6a6 1px solid; PADDING-LEFT: 4px; BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/cmty/ab_inactive.gif); =
+PADDING-BOTTOM: 1px; BORDER-LEFT: #a6a6a6 1px solid; COLOR: #404040; =
+PADDING-TOP: 2px; BORDER-BOTTOM: #a6a6a6 1px solid; BACKGROUND-REPEAT: =
+no-repeat; FONT-FAMILY: arial,helvetica,sans-serif; BACKGROUND-COLOR: =
+#e5e5e5
+}
+HTML > BODY INPUT.ygrp-button {
+	PADDING-RIGHT: 0.3em; PADDING-LEFT: 0.3em; PADDING-BOTTOM: 1px; =
+OVERFLOW: visible; WIDTH: auto; PADDING-TOP: 1px
+}
+BODY INPUT.ygrp-action {
+	BORDER-RIGHT: #1e5fc7 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: =
+#1e5fc7 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; =
+BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/cmty/ab_active.gif); =
+PADDING-BOTTOM: 1px; BORDER-LEFT: #1e5fc7 1px solid; COLOR: #fff; =
+PADDING-TOP: 2px; BORDER-BOTTOM: #1e5fc7 1px solid; BACKGROUND-REPEAT: =
+no-repeat; FONT-FAMILY: arial,helvetica,sans-serif; BACKGROUND-COLOR: =
+#4384f0
+}
+HTML > BODY INPUT.ygrp-action {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 1px
+}
+#ygrp-menu {
+	BORDER-RIGHT: #7b9ebd 1px solid; BORDER-TOP: #7b9ebd 1px solid; =
+MARGIN-BOTTOM: 13px; BORDER-LEFT: #7b9ebd 1px solid; BORDER-BOTTOM: =
+#7b9ebd 1px solid
+}
+#ygrp-menu .ygrp-contentblock {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px
+}
+#ygrp-menu .menulist-hr {
+	FONT-SIZE: 1px; MARGIN: 10px 7px; BORDER-BOTTOM: #7d9ebf 1px solid
+}
+UL.menulist {
+	MARGIN-BOTTOM: 5px; LIST-STYLE-TYPE: none
+}
+UL.menulist LI {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 160%; PADDING-TOP: 0px
+}
+UL.menulist LI.menulist-section {
+	FONT: bold 74% verdana, arial, helvetica, sans-serif; MARGIN-LEFT: =
+-13px
+}
+UL.menulist .sublink {
+	MARGIN-LEFT: 15px
+}
+#ygrp-title .ygrp-header {
+	WIDTH: 100%
+}
+#ygrp-title .ygrp-header TD {
+	VERTICAL-ALIGN: middle
+}
+#ygrp-title .top {
+	BORDER-RIGHT: #7b9ebd 1px solid; BORDER-TOP: #7b9ebd 1px solid; =
+BORDER-LEFT: #7b9ebd 1px solid; WIDTH: auto; BORDER-BOTTOM: #7b9ebd 0px =
+solid; TEXT-ALIGN: left
+}
+#ygrp-title .top .body {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 1px; PADDING-LEFT: 10px; =
+PADDING-BOTTOM: 2px; FONT: 74% verdana, arial, helvetica, sans-serif; =
+PADDING-TOP: 2px
+}
+#ygrp-title .top .groups {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 3px; =
+PADDING-BOTTOM: 2px; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+#ygrp-title .top .groups #current {
+	FONT-WEIGHT: bold
+}
+#ygrp-title .bottom {
+	BORDER-RIGHT: #295c7d 1px solid; BORDER-TOP: #295c7d 1px solid; =
+BORDER-LEFT: #295c7d 1px solid; WIDTH: auto; BORDER-BOTTOM: #295c7d 1px =
+solid; TEXT-ALIGN: left
+}
+#ygrp-title .bottom .body {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 2px; =
+VERTICAL-ALIGN: baseline; PADDING-TOP: 4px
+}
+#ygrp-title .bottom .ygrp-pname {
+	FONT-WEIGHT: bold; FONT-SIZE: 130%
+}
+#ygrp-title .bottom .ygrp-grdescr {
+	FONT: 110% georgia, times new roman, serif
+}
+#ygrp-title .bottom #ygrp-titlesingle {
+	MARGIN-TOP: 2px; PADDING-TOP: 0px
+}
+.ygrp-titlebar {
+	MARGIN-BOTTOM: 2px; WIDTH: 100%
+}
+#ygrp-titlebarhr {
+	MARGIN-BOTTOM: 5px
+}
+.ygrp-titlebar H3 {
+	DISPLAY: inline
+}
+.ygrp-titlebar TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.ygrp-titlebar .help {
+	TEXT-ALIGN: right
+}
+.headview {
+	TEXT-ALIGN: right
+}
+TABLE.headview {
+	WIDTH: 100%
+}
+DIV.headview {
+	WIDTH: auto
+}
+.headview TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.headnav TD {
+	FONT: 74% verdana, arial, helvetica, sans-serif; VERTICAL-ALIGN: bottom
+}
+DIV.headview {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 0px
+}
+.footview {
+	TEXT-ALIGN: right
+}
+TABLE.footview {
+	WIDTH: 100%
+}
+DIV.footview {
+	WIDTH: auto
+}
+.footview TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.footnav TD {
+	FONT: 74% verdana, arial, helvetica, sans-serif; VERTICAL-ALIGN: top
+}
+DIV.footview {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 0px
+}
+.headview .viewleft {
+	TEXT-ALIGN: left
+}
+.footview .viewleft {
+	TEXT-ALIGN: left
+}
+.headview .viewright {
+	TEXT-ALIGN: right
+}
+.footview .viewright {
+	TEXT-ALIGN: right
+}
+.list-action-top-right {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 1px; TEXT-ALIGN: right
+}
+.list-action-bottom-right {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 4px; TEXT-ALIGN: right
+}
+.list-action-top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 1px
+}
+.list-action-bottom {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 4px
+}
+.footerbase {
+	FONT-SIZE: 15px; WIDTH: 610px; HEIGHT: 15px
+}
+.searcharea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+VERTICAL-ALIGN: middle; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.searcharea FORM DIV.search {
+	DISPLAY: inline
+}
+.search {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.form-hr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1px; PADDING-BOTTOM: =
+0px; MARGIN: 0px 0px 10px; WIDTH: auto; PADDING-TOP: 0px; BORDER-BOTTOM: =
+#d6e3ef 1px solid; HEIGHT: 10px
+}
+.form-dhr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1px; PADDING-BOTTOM: =
+0px; MARGIN: 0px 0px 10px; WIDTH: auto; PADDING-TOP: 0px; BORDER-BOTTOM: =
+#b5c7d6 1px solid; HEIGHT: 12px
+}
+.ygrp-hr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1px; PADDING-BOTTOM: =
+0px; MARGIN: 0px 0px 9px; WIDTH: auto; PADDING-TOP: 0px; BORDER-BOTTOM: =
+#d6e3ef 1px solid; HEIGHT: 1px
+}
+.warning {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; COLOR: #ea3307
+}
+INPUT.warning {
+	PADDING-BOTTOM: 0px
+}
+TEXTAREA.warning {
+	PADDING-BOTTOM: 0px
+}
+.ygrp-remaining {
+	FONT-WEIGHT: bold; COLOR: #009900
+}
+.redtext {
+	COLOR: #ea3307
+}
+A.redlink {
+	COLOR: #ea3307
+}
+A.redlink:visited {
+	COLOR: #ea3307
+}
+INPUT.warning {
+	BACKGROUND-COLOR: #f4ffad
+}
+SELECT.warning {
+	BACKGROUND-COLOR: #f4ffad
+}
+TEXTAREA.warning {
+	BACKGROUND-COLOR: #f4ffad
+}
+.ygrp-contentblock {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; =
+PADDING-TOP: 10px
+}
+.ygrp-container-border {
+	BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#7b9ebd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 5px; BORDER-LEFT: #7b9ebd 1px solid; WIDTH: auto; PADDING-TOP: 0px; =
+BORDER-BOTTOM: #7b9ebd 1px solid
+}
+#ygrp-tophalf {
+	MARGIN-BOTTOM: 0px
+}
+#ygrp-tophalf {
+	BORDER-BOTTOM-WIDTH: 0px
+}
+.ygrp-container-border DIV.bodypad TEXTAREA {
+	PADDING-LEFT: 5px
+}
+.ygrp-contentblock DIV.bodypad {
+	MARGIN: 0px 0px 0px 10px
+}
+.ygrp-contentblock DIV.bodypad2 {
+	MARGIN: 0px 10px 0px 25px
+}
+.ygrp-contentblock DIV.bodypad3 {
+	MARGIN: 0px 10px 0px 25px
+}
+.ygrp-nowrap {
+	WHITE-SPACE: nowrap
+}
+#ygrp-notice {
+	MARGIN-BOTTOM: 13px
+}
+#ygrp-notice .ygrp-contentblock {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 8px; =
+PADDING-TOP: 8px; TEXT-ALIGN: center
+}
+#ygrp-grnotice {
+	MARGIN-BOTTOM: 13px
+}
+#ygrp-grnotice .ygrp-contentblock {
+	TEXT-ALIGN: center
+}
+#ygrp-memberq {
+	MARGIN-BOTTOM: 13px
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.inline-div {
+	DISPLAY: inline
+}
+.smalltype {
+	FONT: 74% verdana, arial, helvetica, sans-serif
+}
+.italic {
+	FONT-WEIGHT: normal; FONT-STYLE: italic
+}
+.form-row {
+	MARGIN: 0px 0px 5px
+}
+.form-rowb0 {
+	MARGIN: 0px
+}
+.form-rowb4 {
+	MARGIN: 0px 0px 4px
+}
+.form-rowb12 {
+	MARGIN: 0px 0px 12px
+}
+.form-rowb20 {
+	MARGIN: 0px 0px 20px
+}
+.form-rowb35 {
+	MARGIN: 0px 0px 35px
+}
+TH {
+	FONT-WEIGHT: normal; TEXT-ALIGN: left
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+#ycs_ama TABLE TD {
+	VERTICAL-ALIGN: middle
+}
+* HTML #ycs_ama SMALL {
+	FONT-SIZE: 100%
+}
+.doc-layout-0 H3 {
+	MARGIN-BOTTOM: 10px
+}
+.doc-layout-3 .ygrp-gnav {
+	PADDING-RIGHT: 13px; WIDTH: 15%
+}
+.formtable {
+	WIDTH: 100%
+}
+.formtable TH.label {
+	WIDTH: 20%; TEXT-ALIGN: right
+}
+.formtable TD.label {
+	WIDTH: 20%; TEXT-ALIGN: right
+}
+.formtable TD.margin {
+	WIDTH: 3%
+}
+.formtable TD.field {
+	WIDTH: 77%
+}
+.formtable TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px
+}
+.corner-top {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0; =
+BACKGROUND-REPEAT: no-repeat; POSITION: relative; HEIGHT: 3px
+}
+.corner-left {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0; =
+BACKGROUND-REPEAT: no-repeat; POSITION: relative; HEIGHT: 3px
+}
+.corner-bottom {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0; =
+BACKGROUND-REPEAT: no-repeat; POSITION: relative; HEIGHT: 3px
+}
+.corner-top {
+	BACKGROUND-POSITION: 100% 0px; RIGHT: -1px; WIDTH: auto; TOP: -1px
+}
+.corner-top .corner-left {
+	BACKGROUND-POSITION: 0px -6px; LEFT: -2px; WIDTH: 3px
+}
+.corner-bottom {
+	CLEAR: both; BACKGROUND-POSITION: 100% -3px; RIGHT: -1px; WIDTH: auto; =
+BOTTOM: -1px
+}
+.corner-bottom .corner-left {
+	BACKGROUND-POSITION: 0px -9px; LEFT: -2px; WIDTH: 3px
+}
+.group-description {
+	CLEAR: none; FONT-FAMILY: georgia, times new roman, serif
+}
+.wvbox IMG {
+	BORDER-RIGHT: black 4px solid; BORDER-TOP: black 4px solid; =
+MARGIN-BOTTOM: 5px; BORDER-LEFT: black 4px solid; MARGIN-RIGHT: 10px; =
+BORDER-BOTTOM: black 4px solid
+}
+TD.info .inactive {
+	COLOR: #d0d0d0
+}
+TD.info .form-hr {
+	MARGIN-BOTTOM: 5px; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+TD.info .demo {
+	FONT: 74% verdana, arial, helvetica, sans-serif; MARGIN-LEFT: 12px
+}
+TD.info SPAN IMG {
+	MARGIN-RIGHT: 2px
+}
+TD.info {
+	PADDING-RIGHT: 0px; VERTICAL-ALIGN: top
+}
+TD.info .photo {
+	CLEAR: none; FLOAT: right
+}
+.datatable {
+	WIDTH: 100%
+}
+.datatable .selected {
+	BACKGROUND-COLOR: #f4f4f4
+}
+.datatable TH {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; FONT: =
+74% verdana, arial, helvetica, sans-serif; VERTICAL-ALIGN: top; =
+PADDING-TOP: 5px; BORDER-BOTTOM: #b5c7d6 1px solid; BACKGROUND-COLOR: =
+#fff; TEXT-ALIGN: left
+}
+.datatable TD {
+	PADDING-RIGHT: 10px; BORDER-TOP: #dbe3eb 1px solid; PADDING-LEFT: 10px; =
+PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; PADDING-TOP: 10px; =
+BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.datatable TR.firstrow TD {
+	BORDER-TOP-WIDTH: 0px
+}
+.datatable TD.date {
+	FONT: 74% verdana, arial, helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.datatable TD.actions {
+	FONT: 74% verdana, arial, helvetica, sans-serif; WHITE-SPACE: nowrap
+}
+.boxstacked {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; MARGIN: =
+15px auto; BORDER-LEFT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px =
+solid
+}
+.boxstacked TD {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 12px; =
+PADDING-TOP: 12px; TEXT-ALIGN: center
+}
+.boxstacked TD A {
+	FONT-WEIGHT: bold
+}
+#ygrp-sponsored-links {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 15px; PADDING-LEFT: 10px; =
+PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#ygrp-sponsored-links H4 {
+	FONT: bold 74% verdana, arial, helvetica, sans-serif; COLOR: #909090; =
+WHITE-SPACE: nowrap
+}
+#ygrp-sponsored-links A:hover {
+	TEXT-DECORATION: none
+}
+#ygrp-sponsored-links .ygrp-adt {
+	FONT-SIZE: 110%
+}
+#ygrp-sponsored-links .ygrp-add {
+	COLOR: #000
+}
+#ygrp-sponsored-links .ygrp-adu {
+	FONT: 100% verdana, arial, helvetica, sans-serif; COLOR: #008200
+}
+#ygrp-sponsor-grpsrch {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 0px; PADDING-LEFT: 10px; =
+MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; =
+BACKGROUND-COLOR: #ecf5fa
+}
+#ygrp-sponsor-grpsrch H4 {
+	MARGIN-BOTTOM: 0px; FONT: bold 74% verdana, arial, helvetica, =
+sans-serif; COLOR: #909090; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+#ygrp-sponsor-grpsrch A:hover {
+	TEXT-DECORATION: none
+}
+#ygrp-sponsor-grpsrch .ygrp-adt {
+	FONT-SIZE: 110%
+}
+#ygrp-sponsor-grpsrch .ygrp-add {
+	COLOR: #000
+}
+#ygrp-sponsor-grpsrch .ygrp-adu {
+	FONT: 100% verdana, arial, helvetica, sans-serif; COLOR: #008200
+}
+.ygrp-ad {
+	MIN-WIDTH: 192px; PADDING-LEFT: 15px; WIDTH: 18%
+}
+#ygrp-sponsor-box {
+	PADDING-RIGHT: 10px; MARGIN-BOTTOM: 15px; BACKGROUND-COLOR: #fff
+}
+#ygrp-sponsor-box H4 {
+	FONT: bold 74% verdana, arial, helvetica, sans-serif; COLOR: #909090; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+#ygrp-sponsor-box .ygrp-adt {
+	MARGIN-TOP: 13px; FONT-SIZE: 110%
+}
+#ygrp-sponsor-box .ygrp-adu {
+	FONT-SIZE: 100%; COLOR: #008200
+}
+#ygrp-w1 {
+	PADDING-BOTTOM: 15px; TEXT-ALIGN: center
+}
+.wide {
+	WIDTH: 100%
+}
+.wide TD {
+	VERTICAL-ALIGN: top
+}
+#ygrp-gtips {
+	MARGIN-BOTTOM: 13px
+}
+#ygrp-gtips H4 {
+	WHITE-SPACE: nowrap
+}
+#ygrp-gtips H5 {
+	MARGIN-TOP: 10px; COLOR: #628c2a
+}
+.ygrp-mon {
+	PADDING-LEFT: 15px; WIDTH: 1%
+}
+.datatable TD.checkbox {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 12px; MARGIN: =
+0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.datatable TD.left0 {
+	PADDING-LEFT: 0px
+}
+.datatable TH.left0 {
+	PADDING-LEFT: 0px
+}
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/dynamic_200602130000.css
+
+#ygrp-menu {
+	BORDER-LEFT-COLOR: #7b9ebd; BORDER-BOTTOM-COLOR: #7b9ebd; COLOR: #666; =
+BORDER-TOP-COLOR: #7b9ebd; BACKGROUND-COLOR: #e7eff7; =
+BORDER-RIGHT-COLOR: #7b9ebd
+}
+#ygrp-menu .menulist-hr {
+	BORDER-BOTTOM: #7d9ebf 1px solid
+}
+#ygrp-menu .active {
+	BACKGROUND-COLOR: #fff
+}
+#ygrp-menu .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+#ygrp-menu .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+#ygrp-menu .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+.corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_blue.gif)
+}
+.corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_blue.gif)
+}
+.corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_blue.gif)
+}
+DIV.ygrp-container-border {
+	BORDER-LEFT-COLOR: #7b9ebd; BORDER-BOTTOM-COLOR: #7b9ebd; =
+BORDER-TOP-COLOR: #7b9ebd; BACKGROUND-COLOR: #fff; BORDER-RIGHT-COLOR: =
+#7b9ebd
+}
+.ygrp-container-border .headaction {
+	BACKGROUND-COLOR: #e7eff7
+}
+.ygrp-container-border .footaction {
+	BACKGROUND-COLOR: #e7eff7
+}
+#ygrp-title .top {
+	BORDER-LEFT-COLOR: #7b9ebd; BORDER-BOTTOM-COLOR: #7b9ebd; =
+BORDER-TOP-COLOR: #7b9ebd; BACKGROUND-COLOR: #fff; BORDER-RIGHT-COLOR: =
+#7b9ebd
+}
+#ygrp-title .bottom {
+	BORDER-LEFT-COLOR: #295c7d; BORDER-BOTTOM-COLOR: #295c7d; COLOR: #fff; =
+BORDER-TOP-COLOR: #295c7d; BACKGROUND-COLOR: #295c7d; =
+BORDER-RIGHT-COLOR: #295c7d
+}
+#ygrp-title .bottom .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_title.gif)
+}
+#ygrp-title .bottom .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_title.gif)
+}
+#ygrp-title .bottom .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_title.gif)
+}
+#ygrp-titlebarhr {
+	BORDER-BOTTOM: #7b9ebd 1px solid
+}
+.ygrp-titlebar H3 {
+	COLOR: #628c2a
+}
+H3 {
+	COLOR: #628c2a
+}
+.ygrp-tabs A {
+	COLOR: #247cd4
+}
+.ygrp-tabbed-container .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_tabt.gif)
+}
+.ygrp-tabbed-container .corner-top .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_tabt.gif)
+}
+.ygrp-tabbed-container .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_tabb.gif)
+}
+.ygrp-tabbed-container .corner-bottom .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_tabb.gif)
+}
+.ygrp-tabs .ygrp-active-tab .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_taba.gif)
+}
+.ygrp-tabs .ygrp-active-tab .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_taba.gif)
+}
+.ygrp-tabs .ygrp-active-tab {
+	BORDER-LEFT-COLOR: #295c7d; BORDER-BOTTOM-COLOR: #295c7d; =
+BORDER-TOP-COLOR: #295c7d; BACKGROUND-COLOR: #2181a3; =
+BORDER-RIGHT-COLOR: #295c7d
+}
+.ygrp-tabs .ygrp-active-tab A {
+	BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/ptr_profile_1.gif) =
+no-repeat center bottom; COLOR: #fff
+}
+.ygrp-container-border .headaction .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+.ygrp-container-border .headaction .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+.ygrp-container-border .footaction .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+.ygrp-container-border .footaction .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+#nested-container .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_blue.gif)
+}
+#nested-container .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_blue.gif)
+}
+#nested-container .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_blue.gif)
+}
+#nested-container .headaction .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+#nested-container .headaction .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+#nested-container .footaction .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+#nested-container .footaction .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_menu.gif)
+}
+BODY {
+	BACKGROUND-COLOR: #fff
+}
+.datatable TD.checks {
+	BACKGROUND-COLOR: #e7eff7
+}
+.datatable TH.checks {
+	BACKGROUND-COLOR: #e7eff7
+}
+.wide TD.checks {
+	BACKGROUND-COLOR: #e7eff7
+}
+.wide TH.checks {
+	BACKGROUND-COLOR: #e7eff7
+}
+.pollbar-outer {
+	BORDER-RIGHT: #7b9ebd 1px solid; BORDER-TOP: #7b9ebd 1px solid; =
+BORDER-LEFT: #7b9ebd 1px solid; BORDER-BOTTOM: #7b9ebd 1px solid
+}
+.pollbar-inner {
+	BACKGROUND-COLOR: #cef7ff
+}
+#ygrp-mgl-promo {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; =
+BACKGROUND: #f7f3ff; MARGIN: 0px 0px 13px; BORDER-LEFT: #d4d4d4 1px =
+solid; WIDTH: auto; BORDER-BOTTOM: #d4d4d4 1px solid; TEXT-ALIGN: left
+}
+#ygrp-mgl-promo H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%
+}
+#ygrp-mgl-promo .corner-top {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_mglpromo.gif)
+}
+#ygrp-mgl-promo .corner-left {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_mglpromo.gif)
+}
+#ygrp-mgl-promo .corner-bottom {
+	BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/cr_mglpromo.gif)
+}
+TD.content {
+	BORDER-TOP: #7b9ebd 1px solid
+}
+TD.env {
+	BORDER-TOP: #7b9ebd 1px solid
+}
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/msgview_200602130000.css
+
+#ygrp-msg-exp .ygrp-contentblock {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#ygrp-msg-exp .msgheader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; =
+PADDING-TOP: 10px; BACKGROUND-COLOR: #f0f0f0
+}
+#ygrp-msg-exp .msgnumh {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; WIDTH: =
+1%; PADDING-TOP: 10px; BACKGROUND-COLOR: #f0f0f0
+}
+#ygrp-msg-exp .ygrp-datenav {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; =
+VERTICAL-ALIGN: bottom; PADDING-TOP: 10px; TEXT-ALIGN: right
+}
+#ygrp-msg-exp TD.headers {
+	PADDING-RIGHT: 20px; WIDTH: 65%
+}
+#ygrp-msg-exp TD.source {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; =
+PADDING-TOP: 10px
+}
+#ygrp-msg-exp TD.checks {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 10px; =
+VERTICAL-ALIGN: top; PADDING-TOP: 10px
+}
+#ygrp-msg-exp TD.checks INPUT {
+	MARGIN-TOP: 15px
+}
+.form-div {
+	DISPLAY: inline
+}
+.msgarea {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+.msgarea DIV {
+	CLEAR: none
+}
+TABLE.vcard {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; MARGIN: =
+15px auto; BORDER-LEFT: #d4d4d4 1px solid; BORDER-BOTTOM: #d4d4d4 1px =
+solid
+}
+TABLE.vcard TD {
+	TEXT-ALIGN: center
+}
+TABLE.vcard TD.vcard-header {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; COLOR: =
+#fff; PADDING-TOP: 5px; BACKGROUND-COLOR: #295c7d
+}
+TABLE.vcard TD.vcard-values {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 12px; =
+PADDING-TOP: 12px
+}
+.ygrp-topic {
+	WIDTH: 100%
+}
+.ygrp-topic-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; FONT: bold 129% Arial; PADDING-TOP: 0px
+}
+.ygrp-topicnav {
+	FONT-SIZE: 77%; VERTICAL-ALIGN: middle; FONT-FAMILY: Verdana; =
+TEXT-ALIGN: right
+}
+#ygrp-msg-topic-exp TH.content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 5px
+}
+#ygrp-msg-topic-exp TH.env {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 5px
+}
+#ygrp-msg-exp TH.content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 5px
+}
+#ygrp-msg-exp TH.env {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 5px
+}
+#ygrp-msg-topic-exp .content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 25px; =
+PADDING-TOP: 25px
+}
+.env {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 25px; =
+PADDING-TOP: 25px
+}
+.user {
+	FONT-FAMILY: Georgia
+}
+.fixed {
+	FONT-FAMILY: "Courier New"
+}
+#ygrp-msg-topic-exp .env {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 15px; WIDTH: 145px; BACKGROUND-COLOR: =
+#f4f4f4
+}
+#ygrp-msg-exp .env {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 15px; WIDTH: 145px; BACKGROUND-COLOR: =
+#f4f4f4
+}
+#ygrp-msg-topic-exp .controls {
+	PADDING-TOP: 10px
+}
+#ygrp-msg-exp .controls {
+	PADDING-TOP: 10px
+}
+.subject {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; COLOR: #000; FONT-FAMILY: =
+Georgia! important
+}
+.elbow {
+	PADDING-LEFT: 24px; BACKGROUND-IMAGE: =
+url(http://us.i1.yimg.com/us.yimg.com/i/yg/img/ui/elbow.gif); =
+MARGIN-LEFT: -20px; BACKGROUND-REPEAT: no-repeat
+}
+.root {
+	BACKGROUND-IMAGE: none! important
+}
+.grey {
+	COLOR: #666
+}
+#ygrp-msg-topic-exp .content {
+	PADDING-TOP: 25px! important
+}
+#ygrp-msg-exp .content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 25px; =
+PADDING-TOP: 25px
+}
+#ygrp-msglist TD.message {
+	PADDING-LEFT: 11px
+}
+.first {
+	BORDER-TOP-WIDTH: 0px! important; BORDER-LEFT-WIDTH: 0px! important; =
+BORDER-BOTTOM-WIDTH: 0px! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+.info HR {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN: 10px 0px; COLOR: #ccc; HEIGHT: 1px; BACKGROUND-COLOR: #ccc; =
+BORDER-RIGHT-WIDTH: 0px
+}
+.info A:hover {
+	TEXT-DECORATION: none
+}
+.datatable .footaction IMG {
+	MARGIN-TOP: 0px! important
+}
+.datatable .footaction .ygrp-elbow IMG.ygrp-ielbow {
+	MARGIN-TOP: -6px! important; MARGIN-RIGHT: 0px
+}
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://us.js2.yimg.com/us.js.yimg.com/lib/yg/css/msgidx_200506210000.css
+
+.pos-img {
+	PADDING-LEFT: 9px
+}
+.list-action-top IMG {
+	Z-INDEX: 200; MARGIN: 5px 6px -14px 0px; POSITION: relative
+}
+.footaction IMG {
+	Z-INDEX: 200; MARGIN: -20px 4px 0px 0px; POSITION: relative
+}
+#ygrp-msg-ext .ygrp-contentblock {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#ygrp-msg-ext .datatable TH {
+	PADDING-TOP: 5px
+}
+.datatable TH.checks {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 1%; PADDING-TOP: 0px
+}
+.datatable TH.margin {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; BORDER-BOTTOM-WIDTH: 0px; =
+PADDING-BOTTOM: 0px; WIDTH: 1%; PADDING-TOP: 0px
+}
+.datatable TH.msgnum {
+	WIDTH: 1%
+}
+.datatable TH.message {
+	PADDING-LEFT: 0px
+}
+.datatable TH.info {
+	WIDTH: 12%
+}
+.datatable TH.date {
+	WIDTH: 8%
+}
+.datatable TH.status {
+	WIDTH: 10%
+}
+.datatable TH.actions {
+	WIDTH: 10%
+}
+.datatable TD.checks {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; =
+PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.datatable TD.margin {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 7px; PADDING-LEFT: 7px; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.datatable TD.msgnum {
+	PADDING-LEFT: 0px
+}
+.datatable TD.message {
+	PADDING-LEFT: 0px; FONT: 88% georgia, times new roman, serif
+}
+.datatable TD.message SPAN {
+	FONT-WEIGHT: bold
+}
+.datatable TD.info {
+	PADDING-RIGHT: 0px; WHITE-SPACE: nowrap
+}
+.datatable TD.ygrp-blank {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1px; BORDER-BOTTOM-WIDTH: 0px; =
+PADDING-BOTTOM: 7px; PADDING-TOP: 7px; HEIGHT: 15px; BORDER-RIGHT-WIDTH: =
+0px
+}
+.datatable .date {
+	PADDING-RIGHT: 5px
+}
+TABLE.ygrp-compact .margin {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+TABLE.ygrp-compact TH {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; =
+PADDING-TOP: 4px
+}
+TABLE.ygrp-compact TH {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; =
+PADDING-TOP: 4px
+}
+TABLE.ygrp-compact TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; =
+PADDING-TOP: 4px
+}
+TABLE.ygrp-compact TD.info {
+	FONT: 74% verdana, arial, helvetica, sans-serif
+}
+TABLE.ygrp-compact TD.checks {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 2px
+}
+.wide TD.checks {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 10px; WIDTH: 1%; =
+PADDING-TOP: 10px
+}
+.wide TD.msg {
+	BACKGROUND: #fff
+}
+.ygrp-indent1 {
+	PADDING-LEFT: 20px
+}
+.ygrp-indent2 {
+	PADDING-LEFT: 35px
+}
+.ygrp-indent3 {
+	PADDING-LEFT: 50px
+}
+.ygrp-indent4 {
+	PADDING-LEFT: 65px
+}
+.ygrp-indent5 {
+	PADDING-LEFT: 80px
+}
+.ygrp-indent6 {
+	PADDING-LEFT: 95px
+}
+.ygrp-indent7 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent8 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent9 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent10 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent11 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent12 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent13 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent14 {
+	PADDING-LEFT: 120px
+}
+.ygrp-indent15 {
+	PADDING-LEFT: 120px
+}
+.ygrp-ielbow {
+	PADDING-RIGHT: 5px; MARGIN-TOP: -7px
+}
+.ygrp-elbow {
+	DISPLAY: inline; MARGIN-LEFT: -20px
+}
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://us.js1.yimg.com/us.yimg.com/lib/hdr/ygma.css
+
+TD.ygmabk {
+	BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/hdr/el/uh_bk.gif) #efefef =
+repeat-x 50% bottom
+}
+TD.ygmatcrn {
+	BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/hdr/el/uh_tcrn.gif) #efefef =
+no-repeat left bottom
+}
+TD.ygmatcrnb {
+	BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/hdr/el/uh_tcrn_b.gif) #efefef =
+no-repeat right bottom
+}
+TD.ygmacrn {
+	BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/hdr/el/uh_crn2.gif) repeat-x
+}
+TD.ygmacrnb {
+	BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/hdr/el/uh_crn_b.gif) #fff =
+repeat-x
+}
+TD.ygmabk INPUT {
+	FONT: 110% verdana,geneva,sans-serif
+}
+#ygma TD {
+	MARGIN: 0px; TEXT-ALIGN: left
+}
+#ygma .ygbt {
+	BACKGROUND: #dcdcdc
+}
+#ygmalinks {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; =
+PADDING-TOP: 4px
+}
+.ygmabk A {
+	COLOR: #000
+}
+#ygmasearch {
+	PADDING-RIGHT: 6px
+}
+#ygmalogo {
+	MARGIN: 3px 5px 0px 0px
+}
+#ygmagreet {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; =
+VERTICAL-ALIGN: top; LINE-HEIGHT: 12px; PADDING-TOP: 5px
+}
+TD#ygmaproplinks {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; =
+VERTICAL-ALIGN: top; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+
+------=_NextPart_000_0000_01C865FB.038A2180
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://us.js1.yimg.com/us.yimg.com/lib/g/util/yg_cookie_1_2.js
+
+function yg_cookie(){=0A=
+	var dc=3Ddocument,a=3D[],c=3D[];=0A=
+	if(dc.cookie.length>0){=0A=
+		a=3Ddc.cookie.split("; "),cl=3Da.length,ca=3D[];=0A=
+		for(var i=3Dcl-1;i>=3D0;i--){ca=3Da[i].split("=3D");c[ca[0]]=3Dca[1]}=0A=
+	}=0A=
+	this.getAll=3Dfunction(){return a}=0A=
+	this.get=3Dfunction(n){return(c[n])?unescape(c[n]):0}=0A=
+	this.set=3Dfunction(n,v,e,p,d,s){=0A=
+		v=3Descape(v);var today=3Dnew Date(),nv=3Dn+"=3D"+v;=0A=
+		var str=3Dnv+((e)?"; expires=3D"+e:"")+((p)?"; path=3D"+p:"")+((d)?"; =
+domain=3D"+d:"")+((s)?"; secure":"");=0A=
+		=
+if((n.length>0&&v.length>0)&&(((e)&&(e>today))||(!e))&&(nv.length<4000)){=
+dc.cookie=3Dstr;a[a.length]=3Dnv;c[n]=3Dv;return 1}else return 0;=0A=
+	}=0A=
+	this.remove=3Dfunction(n,p,d){=0A=
+		if(c[n]){=0A=
+			dc.cookie=3Dn+"=3D"+((p)?"; path=3D"+p:"")+((d)?"; =
+domain=3D"+d:"")+"; expires=3DThu, 01-Jan-1970 00:00:01 GMT";=0A=
+			for(var =
+i=3Da.length-1;i>=3D0;i--){if(a[i].indexOf(n)!=3D-1)a.splice(i,1)}c[n]=3D=
+null;return 1;=0A=
+		}else return 0;=0A=
+	}=0A=
+}=0A=
+
+------=_NextPart_000_0000_01C865FB.038A2180--

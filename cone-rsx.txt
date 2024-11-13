@@ -1,0 +1,97 @@
+Tobias' CPC RSX documentation
+-----------------------------
+
+|dsk
+
+Handling of disk images (size max. 256KB)
+|dsk - lists directory and gives every entry a hex number
+|dsk,&hexnumber- load image &hexnumber into memory
+|dsk,0 - write back current disk image to CF/ hard disk (if anything was changed)
+
+Note: CPC BASIC understands hex numbers, e.g. 'poke &7fff,&ce' is a valid statement (which actually does nothing)- so the ampersand '&' is mandatory in commands like |DSK,&1F if you take the number from the |DSK listing. Of course you can also use use a decimal number: |DSK,31 loads the exact same disk image.
+
+|ados
+switch off ROM6 with the c-one extensions to increase compatibility.
+
+Background: Every ROM extension also uses a bit of system RAM. Some programs however assume they can use all memory. This can lead to a crash, and therefore the c-one extensions can be switched off. But please load the wanted disk image with |dsk,&hexnum first; after switching off the c-one ROM with |ados, there is no |dsk command anymore! The usual CPC disk commands like CAT and RUN are still available.
+
+|xread
+
+Recieve data using Xmodem (you need a silver surfer for this)
+syntax: |xread,bank,start,end
+|xread,&B,&C000,&FFFF - load data into the CPC screen &BC000 to &BFFFF
+|xread,&A,&C000,&FFFF - load data into -6502- memory &AC000 to &AFFFF
+start it with: |s65
+|xread,0,0,0 - load complete file (even >64KB) into memory starting at 00000
+
+|config
+Configure 1k100 from memory starting at 00000 
+
+|c64
+Configure 1k100 from memory starting at 00000 and switch to 1k100
+
+|ih65
+read Intel hex file into 6502 memory (via silver surfer)
+
+|s65
+start 6502 code in memory area 90000-9FFFF
+
+|bboot
+get bigboot from flash rom into 90000-9ffff and execute.
+
+|flashsys
+system update of the flash rom
+|flashsys - load file cone-sys.bin from root dir of CF/HD/CD-ROM, check the system and flashes if necessary.
+|flashsys,0 - takes what is in 00000-3FFFF, check the system and flashes if necessary,
+
+|flash
+flashes blocks of 64K max.
+|FLASH, Ramsector, Startaddress, Endaddress, Flashsector, Flashaddress
+
+|ih
+read Intel hex file into Z80 memory.
+
+
+
+|get
+Copy RAM blocks
+|get, startsector, Startaddress, Endaddress, Target_sector, target_address
+
+|fget
+Copy memory blocks from Flash into RAM
+|fget, Flashsector, Startaddress, Endaddress, Ramsector, target_address
+
+|rom
+Get new C-One ROM from SilverSurfer in Intel Hex format and activate it by doing a reset.
+
+
+How to use other expansion ROMs with the CPC:
+
+The ROMs are stored on the CF card and are loaded by bigboot into the memory area for the expansion ROM emulation when the CPC464 or 6128 core is selected.
+This works as follows:
+
+LROM must be written into RISC memory 90000-93FFF
+(this is the CPC 'kernal rom')
+The ROM expansion box is in RISC memory C0000-FFFFF.
+ROM 0 = C0000-C3FFF,
+(this is UROM, containing the CPC BASIC interpreter)
+ROM 1 = C4000-C7FFF,
+...
+ROM 7 = DC000-DFFFF,
+(the CPC DOS lives here)
+...
+ROM 15 = FC000-FFFFF.
+
+[all these ROMs other than LROM and UROM were not present with a standard CPC system, but a hardware expansion could bring it's own driver ROM with it: on the CPC464, the DOS ROM was on the disk controller card. The C-One specific commands are in ROM 6, there are various toolkit roms availavble... -mc]
+
+
+Thus to configure a working CPC, LROM must be in a file named 0r090000.bin with exactly 16Kb size. The first number defines what boot configuration the file belongs to. Bigboot can handle up to ten different configurations 0..9, so the example file belongs to config '0'. The second char 'r' means 'ROM', and the last six characters are the address in the RISC memory: 90000, the LROM location. 
+
+The UROM is supposed to be ROM 0 which is located in  RISC memory c0000, so the UROM goes into file 0r0c0000.bin (for configuration 0).
+
+If you insist on using amsdos or anything else in ROM 7: simply name the file 0r0dc000.bin. Yes, it will work- there is no FPGA logic in the CPC core, but the Z80 emulator handles accesses to the floppy controller. 
+
+It is also possible to load several ROMs in one file, e.g. 0r0c4000.bin with a size of 64Kb loads ROM1-4 in one batch. ROM 6 contains Tobias' C-One extensions and is always copied at startup into d8000-DBFFF. Of course if it isn't needed, it may as well be overwritten by bigboot.
+
+
+(text: Tobias Gubener; translation: -mc)

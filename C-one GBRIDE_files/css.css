@@ -1,0 +1,33 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #2965ad; FONT-SIZE: 8.5pt; MARGIN: 5px; SCROLLBAR-HIGHLIGHT-COLOR: #0061ad; CURSOR: default; SCROLLBAR-SHADOW-COLOR: #2965ad; SCROLLBAR-3DLIGHT-COLOR: #2965ad; SCROLLBAR-ARROW-COLOR: #c6e331; SCROLLBAR-TRACK-COLOR: #003063; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva; SCROLLBAR-DARKSHADOW-COLOR: #2965ad; SCROLLBAR-BASE-COLOR: #1071bd
+}
+UL {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}
+A {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: none
+}
+DIV {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}
+OL {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}
+P {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}
+TABLE {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}
+TD {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}
+TR {
+	FONT-SIZE: 8.5pt; CURSOR: default; FONT-FAMILY: "Trebuchet MS", Verdana, Arial, Geneva
+}

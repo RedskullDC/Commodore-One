@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0047)http://mitglied.lycos.de/mc71/cone/cone-rsx.php -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY>
+<P><FONT face="Times New Roman"><STRONG>Tobias' CPC RSX 
+documentation<BR>-----------------------------</STRONG></FONT></P>
+<P><FONT face="Times New Roman">|dsk</FONT></P>
+<P><FONT face="Times New Roman">Handling of disk images (size max. 
+256KB)<BR>|dsk - lists directory and gives every entry a hex 
+number<BR>|dsk,&amp;hexnumber- load image &amp;hexnumber into memory<BR>|dsk,0 - 
+write back current disk image to CF/ hard disk (if anything was 
+changed)</FONT></P>
+<P><FONT face="Times New Roman">Note: CPC BASIC understands hex numbers, e.g. 
+'poke &amp;7fff,&amp;ce' is a valid statement (which actually does nothing)- so 
+the ampersand '&amp;' is mandatory in commands like |DSK,&amp;1F if you take the 
+number from the |DSK listing. Of course you can also use use a decimal number: 
+|DSK,31 loads the exact same disk image.</FONT></P>
+<P><FONT face="Times New Roman">|ados<BR>switch off ROM6 with the c-one 
+extensions to increase compatibility.</FONT></P>
+<P><FONT face="Times New Roman">Background: Every ROM extension also uses a bit 
+of system RAM. Some programs however assume they can use all memory. This can 
+lead to a crash, and therefore the c-one extensions can be switched off. But 
+please load the wanted disk image with |dsk,&amp;hexnum first; after switching 
+off the c-one ROM with |ados, there is no |dsk command anymore! The usual CPC 
+disk commands like CAT and RUN are still available.</FONT></P>
+<P><FONT face="Times New Roman">|xread</FONT></P>
+<P><FONT face="Times New Roman">Recieve data using Xmodem (you need a silver 
+surfer for this)<BR>syntax: 
+|xread,bank,start,end<BR>|xread,&amp;B,&amp;C000,&amp;FFFF - load data into the 
+CPC screen &amp;BC000 to &amp;BFFFF<BR>|xread,&amp;A,&amp;C000,&amp;FFFF - load 
+data into -6502- memory &amp;AC000 to &amp;AFFFF<BR>start it with: 
+|s65<BR>|xread,0,0,0 - load complete file (even &gt;64KB) into memory starting 
+at 00000</FONT></P>
+<P><FONT face="Times New Roman">|config<BR>Configure 1k100 from memory starting 
+at 00000 </FONT></P>
+<P><FONT face="Times New Roman">|c64<BR>Configure 1k100 from memory starting at 
+00000 and switch to 1k100</FONT></P>
+<P><FONT face="Times New Roman">|ih65<BR>read Intel hex file into 6502 memory 
+(via silver surfer)</FONT></P>
+<P><FONT face="Times New Roman">|s65<BR>start 6502 code in memory area 
+90000-9FFFF</FONT></P>
+<P><FONT face="Times New Roman">|bboot<BR>get bigboot from flash rom into 
+90000-9ffff and execute.</FONT></P>
+<P><FONT face="Times New Roman">|flashsys<BR>system update of the flash 
+rom<BR>|flashsys - load file cone-sys.bin from root dir of CF/HD/CD-ROM, check 
+the system and flashes if necessary.<BR>|flashsys,0 - takes what is in 
+00000-3FFFF, check the system and flashes if necessary,</FONT></P>
+<P><FONT face="Times New Roman">|flash<BR>flashes blocks of 64K max.<BR>|FLASH, 
+Ramsector, Startaddress, Endaddress, Flashsector, Flashaddress</FONT></P>
+<P><FONT face="Times New Roman">|ih<BR>read Intel hex file into Z80 
+memory.</FONT></P>
+<P><FONT face="Times New Roman"></FONT>&nbsp;</P>
+<P><FONT face="Times New Roman">|get<BR>Copy RAM blocks<BR>|get, startsector, 
+Startaddress, Endaddress, Target_sector, target_address</FONT></P>
+<P><FONT face="Times New Roman">|fget<BR>Copy memory blocks from Flash into 
+RAM<BR>|fget, Flashsector, Startaddress, Endaddress, Ramsector, 
+target_address</FONT></P>
+<P><FONT face="Times New Roman">|rom<BR>Get new C-One ROM from SilverSurfer in 
+Intel Hex format and activate it by doing a reset.</FONT></P>
+<P><BR><FONT face="Times New Roman">How to use other expansion ROMs with the 
+CPC:</FONT></P>
+<P><FONT face="Times New Roman">The ROMs are stored on the CF card and are 
+loaded by bigboot into the memory area for the expansion ROM emulation when the 
+CPC464 or 6128 core is selected.<BR>This works as follows:</FONT></P>
+<P><FONT face="Times New Roman">LROM must be written into RISC memory 
+90000-93FFF<BR>(this is the CPC 'kernal rom')<BR>The ROM expansion box is in 
+RISC memory C0000-FFFFF.<BR>ROM 0 = C0000-C3FFF,<BR>(this is UROM, containing 
+the CPC BASIC interpreter)<BR>ROM 1 = C4000-C7FFF,<BR>...<BR>ROM 7 = 
+DC000-DFFFF,<BR>(the CPC DOS lives here)<BR>...<BR>ROM 15 = 
+FC000-FFFFF.</FONT></P>
+<P><FONT face="Times New Roman">[all these ROMs other than LROM and UROM were 
+not present with a standard CPC system, but a hardware expansion could bring 
+it's own driver ROM with it: on the CPC464, the DOS ROM was on the disk 
+controller card. The C-One specific commands are in ROM 6, there are various 
+toolkit roms availavble... -mc]</FONT></P>
+<P><BR><FONT face="Times New Roman">Thus to configure a working CPC, LROM must 
+be in a file named 0r090000.bin with exactly 16Kb size. The first number defines 
+what boot configuration the file belongs to. Bigboot can handle up to ten 
+different configurations 0..9, so the example file belongs to config '0'. The 
+second char 'r' means 'ROM', and the last six characters are the address in the 
+RISC memory: 90000, the LROM location. </FONT></P>
+<P><FONT face="Times New Roman">The UROM is supposed to be ROM 0 which is 
+located in&nbsp; RISC memory c0000, so the UROM goes into file 0r0c0000.bin (for 
+configuration 0).</FONT></P>
+<P><FONT face="Times New Roman">If you insist on using amsdos or anything else 
+in ROM 7: simply name the file 0r0dc000.bin. Yes, it will work- there is no FPGA 
+logic in the CPC core, but the Z80 emulator handles accesses to the floppy 
+controller. </FONT></P>
+<P><FONT face="Times New Roman">It is also possible to load several ROMs in one 
+file, e.g. 0r0c4000.bin with a size of 64Kb loads ROM1-4 in one batch. ROM 6 
+contains Tobias' C-One extensions and is always copied at startup into 
+d8000-DBFFF. Of course if it isn't needed, it may as well be overwritten by 
+bigboot.</FONT></P>
+<P><BR><FONT face="Times New Roman">(text: Tobias Gubener; translation: 
+-mc)</FONT></P><PRE></PRE><XMP></XMP></NOSCRIPT><!-- SZM VERSION="1.3" -->
+<SCRIPT language=JavaScript>
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  return (new Object());
+}
+
+window.open = SymWinOpen;
+
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript> 
+<!-- 
+var IVW="http://lycos.ivwbox.de/cgi-bin/ivw/CP/2B04APBA0000;"; 
+document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"\" width=\"1\" height=\"1\" />"); 
+// -->
+</SCRIPT>
+<NOSCRIPT><IMG height=1 src="cone-rsx_files/blank.gif" width=1> </NOSCRIPT><!-- /SZM --><!-- SZMFRABO VERSION="1.1" -->
+<SCRIPT language=JavaScript type=text/javascript> 
+var szmvars="lycos//CP//2B04APBA0000"; 
+</SCRIPT>
+
+<SCRIPT language=JavaScript src="cone-rsx_files/survey.js" type=text/javascript> </SCRIPT>
+<!-- /SZMFRABO -->
+<SCRIPT language=javascript src="cone-rsx_files/test_frame_size.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+if (!AD_clientWindowSize()) {
+        document.write("<NOSC"+"RIPT>");
+}
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+        function setCookie(name, value, expires, path, domain, secure) {
+           var curCookie = name + "=" + escape(value) +
+             ((expires) ? "; expires=" + expires.toGMTString() : "") +
+             ((path) ? "; path=" + path : "") +
+             ((domain) ? "; domain=" + domain : "") +
+             ((secure) ? "; secure" : "");
+           document.cookie = curCookie;
+        }
+
+        var ad_url = "http://ads.tripod.lycos.de/ad/google/frame.php?_url="+escape(self.location)+"&gg_bg=FFFFFF&gg_template=1&mkw=&cat=science.technology";
+        var ref=window.document.referrer;
+
+		if(parent.LycosAdFrame) {
+                if(parent.memberPage && parent.memberPage.document.title ) {
+                        parent.document.title=parent.memberPage.document.title;
+                }
+
+                if(parent.LycosAdFrame && parent.LycosAdFrame.location && (ref != "" && (ref+"?" != window.location) && (ref.substr(ref.length-1,1) != "/")) ) {
+                        parent.LycosAdFrame.location.replace(ad_url);
+                }
+                setCookie("adFrameForcePHP",0,0," ");
+                parent.document.body.cols = "*,140";
+        }
+        else if(top.LycosAdFrame && top.LycosAdFrame.location) {
+                if ((ref != "" && (ref+"?" != top.window.location) && (ref.substr(ref.length-1,1) != "?"))) {
+                        top.LycosAdFrame.location.replace(ad_url);
+                }
+                setCookie("adFrameForcePHP",0,0," ");
+                top.document.body.cols = "*,140";
+        }
+        else {
+                if (!window.opener) {
+                        setCookie("adFrameForcePHP",1,0," ");
+                }
+                else {
+                        setCookie("adFrameForcePHP",0,0," ");
+                }
+        }
+		
+	if (window.top.location.href.indexOf("http://mitglied.lycos.de")!=-1) {
+		ad_frame = 1 ;
+		window.top.document.body.cols="*,140" ;
+	}
+
+function resizeGoogleAdFrame() {
+	window.top.document.body.cols = "*,140";
+}
+
+
+	if (ad_frame == 1 && AD_clientWindowSize()) {
+		setInterval("resizeGoogleAdFrame()", 30);
+	}
+
+</SCRIPT>
+
+<SCRIPT language=javascript 
+src="cone-rsx_files/popunder_lycos_update.htm"></SCRIPT>
+
+<SCRIPT src="cone-rsx_files/ad.php" type=text/javascript></SCRIPT>
+<!-- START RedSheriff Measurement V5.01 --><!-- COPYRIGHT 2002 RedSheriff Limited -->
+<SCRIPT language=JavaScript type=text/javascript><!--
+  var _rsCI='lycos-de';
+  var _rsCG='science.technology';
+  var _rsDT=1;
+  var _rsSI=escape(window.location);
+  var _rsLP=location.protocol.indexOf('https')>-1?'https:':'http:';
+  var _rsRP=escape(document.referrer);
+  var _rsND=_rsLP+'//secure-uk.imrworldwide.com/';
+
+  if (parseInt(navigator.appVersion)>=4) {
+    var _rsRD=(new Date()).getTime();
+    var _rsSE=0;
+    var _rsSV='';
+    var _rsSM=0;
+    _rsCL='<scr'+'ipt language="JavaScript" type="text/javascript" src="'+_rsND+'v5.js"><\/scr'+'ipt>';
+  } else {
+    _rsCL='<img src="'+_rsND+'cgi-bin/m?ci='+_rsCI+'&cg='+_rsCG+'&si='+_rsSI+'&rp='+_rsRP+'">';
+  }
+  document.write(_rsCL);
+//--></SCRIPT>
+<NOSCRIPT><IMG alt="" src="cone-rsx_files/m.gif"> </NOSCRIPT><!-- END RedSheriff Measurement V5 -->
+<SCRIPT language=JavaScript>
+<!--
+var SymRealOnLoad;
+var SymRealOnUnload;
+
+function SymOnUnload()
+{
+  window.open = SymWinOpen;
+  if(SymRealOnUnload != null)
+     SymRealOnUnload();
+}
+
+function SymOnLoad()
+{
+  if(SymRealOnLoad != null)
+     SymRealOnLoad();
+  window.open = SymRealWinOpen;
+  SymRealOnUnload = window.onunload;
+  window.onunload = SymOnUnload;
+}
+
+SymRealOnLoad = window.onload;
+window.onload = SymOnLoad;
+
+//-->
+</SCRIPT>
+</BODY></HTML>

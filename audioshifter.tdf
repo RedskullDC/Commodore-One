@@ -1,0 +1,41 @@
+-- Subdesign C-One 1K100
+-- C-One reconfigurable computer
+-- (c) Tobix Gubener 2004
+-- All rights reserved.
+-- only for use in the C-One-Projekt!
+
+SUBDESIGN Audioshifter
+(
+	clk2mhz			:INPUT;
+	right[15..0]	:INPUT;
+	left[15..0]		:INPUT;
+	adata			:OUTPUT;
+	lrclk			:OUTPUT;
+)
+
+VARIABLE
+	shift[16..0]	:DFFE;
+	count[4..0] 	:DFF;
+	lrclk			:DFFE;
+BEGIN
+DEFAULTS
+	lrclk.ena=GND;
+END	DEFAULTS;
+	(shift[], count[], lrclk).clk=NOT clk2mhz;
+	lrclk = NOT lrclk;				
+	adata=shift[16];
+	shift[].ena=(count[]<17);
+	IF count[] == 0 then		
+		lrclk.ena=VCC;				
+		count[] = 23;
+    	IF lrclk THEN						
+			shift[] = (GND, left[]);				
+		ELSE
+			shift[]	= (GND, right[]);			
+	   	END IF;
+	ELSE
+		shift[16..0] = (shift[15..0], GND);
+		count[]	= count[] - 1;	
+	END IF;
+
+END;

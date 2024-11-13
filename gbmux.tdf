@@ -1,0 +1,84 @@
+-- Subdesign C-One 1K100
+-- C-One reconfigurable computer
+-- (c) Tobix Gubener 2004
+-- english version -mc 2004
+-- All rights reserved.
+-- only for use in the C-One-Projekt!
+
+--VGA Demultiplexer & Switch
+--possible Clocks 5x 6x 6,25x (8x) 
+--Part of 1K100
+
+SUBDESIGN gbmux
+(
+	C135MHz			:INPUT;			--sysclk
+	vid[15..0]		:INPUT;			--vga data
+	vsync			:INPUT;			--low-active or high-active
+	hsync			:INPUT;			-- choose whatever your monitor supports
+	ilr_clk			:INPUT=GND;		--LR_CLK Audio, don't connect when not used 
+	iauda			:INPUT=GND;		--Audio data, don't connect when not used
+	pixclkena		:OUTPUT;		--clock for VGA Controller 
+							--either clock with falling edge or use as enable 
+							--(active-high) for clock of video controller
+	gb[5..0]		:OUTPUT;		--sent data
+	gbi[7..6]		:INPUT;			--received data(gbi[7]=2MHZ,sync,streamB,streamA; gbi[6] not yet used) 
+	ioshift			:INPUT=GND;		--joystick data from 7064 - make a connecion from pin 174 of 1k100
+	2MHz			:OUTPUT;		--for Audioshifter
+	adr[19..0]		:OUTPUT;		--mirrored address bus
+	data[7..0]		:OUTPUT;		--mirrored Data bus
+	iowr			:OUTPUT;		--IOWR => active-low
+	memwr			:OUTPUT;		--MEMWR => active-low, pulse length see below
+	wrshift[14..0]		:OUTPUT;		--on write access a '1' bit is shifted from [0] to [14]
+							--use for state control every stage approx. 40ns,
+							--e.g. [1] take over bus, [2] write data, [3] release bus
+							--one-hot encoded state machine	
+)
+
+VARIABLE
+	ring[2..0]		:DFF;
+	gshift[15..0]	:DFF;
+	ldekt[3..0]		:DFF;
+	adekt[3..0]		:DFF;
+	inshift[3..0]	:DFF;
+	dshifta[14..0]	:DFFE;
+	dshiftb[14..0]	:DFFE;
+	wrshift[14..0]	:DFFE;
+	dataA[15..0]	:DFFE;
+	dataB[15..0]	:DFFE;
+	2MHz			:DFFE;
+	dummy[1..0]		:NODE;
+BEGIN
+
+	ring[].clk=C135MHz;
+	pixclkena=ring[0];
+	ring[2..1]=ring[1..0];
+	ring[0]=NOT (ring[0] OR ring[1] OR ring[2]);
+
+--Sender
+	(gshift[], ldekt[], adekt[]).clk=C135MHz; --supply with sysclk
+	IF ring[0] THEN
+		gshift[]=vid[];
+		ldekt[]=(ilr_clk, vsync, hsync, vcc);
+		adekt[]=(iauda, ioshift, GND, vcc);
+	ELSE
+		gshift[15..4]=gshift[11..0];
+		ldekt[3..1]=ldekt[2..0];
+		adekt[3..1]=adekt[2..0];
+	END IF;
+	gb[5..0]=(adekt[3],ldekt[3],gshift[15..12]);
+-----------------------------------------------------
+--receiver (deshifter)
+	(inshift[], dshifta[], dshiftb[], wrshift[], dataA[], dataB[], 2MHz).clk=C135MHZ;
+	(dshifta[], dshiftb[], wrshift[], 2MHz).ena=ring[1];
+	(dataA[], dataB[]).ena=ring[1] AND inshift[2];
+	(adr[], data[], iowr, memwr, dummy[1], dummy[0])=(dataA[], dataB[]);
+	(dataB[3]).prn=NOT wrshift[1];    --IOWR=H, index in brackets determins length of IO write pulse => pulse length =index/25MHz
+	(dataB[2]).prn=NOT wrshift[3];    --MEMWR=H, index in brackets determins length of MEM write pulse => pulse length =index/25MHz
+	dshifta[]=(dshifta[13..0], inshift[0]);
+	dshiftb[]=(dshiftb[13..0], inshift[1]);
+	wrshift[]=(wrshift[13..0], inshift[2]);
+	2MHz=inshift[3];
+	dataA[]=(dshifta[], inshift[0]);
+	dataB[]=(dshiftb[], inshift[1]);
+	inshift[]=(inshift[2..0],gbi[7]);
+END;
